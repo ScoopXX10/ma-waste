@@ -1,47 +1,23 @@
 import {
-  Navigation,
   Hero,
-  StatsBanner,
-  SqueezeSection,
-  PremiumCalculator,
-  OutmigrationSection,
-  WealthDrainSection,
-  SpendingSection,
-  ComparisonSection,
-  TippingPointTimeline,
-  BudgetSankey,
-  ExodusMap,
-  AffordabilityGap,
-  StateComparison,
-  FraudSection,
-  HousingSection,
-  TownMapSection,
-  EnergySection,
+  BottomLine,
+  TopicCardGrid,
+  CompactCalculator,
+  CTASection,
   Footer,
 } from './components'
 
 function App() {
   return (
     <div className="bg-slate-950 text-paper min-h-screen">
-      <Navigation />
       <main>
         <Hero />
-        <StatsBanner />
-        <SqueezeSection />
-        <PremiumCalculator />
-        <StateComparison />
-        <SpendingSection />
-        <BudgetSankey />
-        <FraudSection />
-        <ComparisonSection />
-        <TippingPointTimeline />
-        <OutmigrationSection />
-        <ExodusMap />
-        <WealthDrainSection />
-        <AffordabilityGap />
-        <HousingSection />
-        <TownMapSection />
-        <EnergySection />
+        <div id="bottom-line">
+          <BottomLine />
+        </div>
+        <TopicCardGrid />
+        <CompactCalculator />
+        <CTASection />
       </main>
       <Footer />
     </div>

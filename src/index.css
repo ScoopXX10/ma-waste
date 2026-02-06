@@ -29,6 +29,17 @@
   .animate-fade-in {
     animation: fadeIn 0.5s ease-out;
   }
+
+  .bg-gradient-radial {
+    background: radial-gradient(circle, var(--tw-gradient-stops));
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
 
 @keyframes fadeIn {
@@ -39,4 +50,23 @@
 @keyframes tickerScroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
+}
+
+/* Drawer content overrides - remove extra spacing when sections are in drawer */
+.drawer-content section {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.drawer-content .section-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: none !important;
+}
+
+/* Hide navigation in drawer content */
+.drawer-content nav {
+  display: none !important;
 }

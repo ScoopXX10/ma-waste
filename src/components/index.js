@@ -19,3 +19,11 @@ export { default as AffordabilityGap } from './AffordabilityGap'
 export { default as StateComparison } from './StateComparison'
 export { default as FraudSection } from './FraudSection'
 export { default as Footer } from './Footer'
+
+// New Hub & Spoke components
+export { default as Drawer } from './Drawer'
+export { default as TopicCard } from './TopicCard'
+export { default as TopicCardGrid } from './TopicCardGrid'
+export { default as BottomLine } from './BottomLine'
+export { default as CompactCalculator } from './CompactCalculator'
+export { default as CTASection } from './CTASection'
