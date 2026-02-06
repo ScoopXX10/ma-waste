@@ -4,6 +4,7 @@ import {
   TopicCardGrid,
   CompactCalculator,
   CTASection,
+  SupportSection,
   Footer,
 } from './components'
 
@@ -18,6 +19,7 @@ function App() {
         <TopicCardGrid />
         <CompactCalculator />
         <CTASection />
+        <SupportSection />
       </main>
       <Footer />
     </div>
