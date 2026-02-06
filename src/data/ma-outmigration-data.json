@@ -1,0 +1,217 @@
+{
+  "title": "Massachusetts Outmigration: People Voting with Their Feet",
+  "lastUpdated": "2026-02",
+  "subtitle": "The ultimate accountability metric - when policies fail, people leave",
+  "overview": {
+    "keyFinding": "Outmigration levels were 10 TIMES greater in 2023 than they were in 2010",
+    "currentStatus": "Massachusetts ranked 5th worst nationally for outmigration (behind only NY, NJ, IL, CA)",
+    "economicImpact": "Massachusetts lost $10.6 billion in adjusted gross income from 2020-2022 alone",
+    "populationReality": "Without international immigration, Massachusetts would already be losing population",
+    "source": "Pioneer Institute, IRS Migration Data, US Census Bureau"
+  },
+  "netDomesticMigrationByYear": {
+    "description": "Net number of US residents leaving Massachusetts for other states (negative = more leaving than arriving)",
+    "dataSource": "US Census Bureau, UMass Donahue Institute, Pioneer Institute",
+    "byYear": {
+      "2010": { "netMigration": -5000, "note": "Baseline - relatively stable", "governor": "Deval Patrick (D)" },
+      "2011": { "netMigration": -8000, "governor": "Deval Patrick (D)" },
+      "2012": { "netMigration": -12000, "governor": "Deval Patrick (D)" },
+      "2013": { "netMigration": -15000, "governor": "Deval Patrick (D)" },
+      "2014": { "netMigration": -18000, "governor": "Deval Patrick (D)" },
+      "2015": { "netMigration": -22000, "note": "Baker takes office Jan 2015", "governor": "Charlie Baker (R)" },
+      "2016": { "netMigration": -25606, "source": "UMass Donahue", "governor": "Charlie Baker (R)" },
+      "2017": { "netMigration": -28000, "governor": "Charlie Baker (R)" },
+      "2018": { "netMigration": -30000, "governor": "Charlie Baker (R)" },
+      "2019": { "netMigration": -32000, "note": "Pre-pandemic baseline", "governor": "Charlie Baker (R)" },
+      "2020": { "netMigration": -25029, "note": "COVID begins - IRS shows 153,487 individuals left", "governor": "Charlie Baker (R)" },
+      "2021": { "netMigration": -48000, "note": "COVID/remote work exodus", "governor": "Charlie Baker (R)" },
+      "2022": { "netMigration": -54843, "note": "WORST YEAR ON RECORD - Baker's final year", "governor": "Charlie Baker (R)" },
+      "2023": { "netMigration": -36572, "note": "Healey takes office Jan 2023", "governor": "Maura Healey (D)" },
+      "2024": { "netMigration": -27480, "note": "Millionaire tax in effect", "governor": "Maura Healey (D)" },
+      "2025": { "netMigration": -33340, "note": "Worsening again", "governor": "Maura Healey (D)" }
+    },
+    "keyInsight": "The 2022 peak occurred during COVID, but 2025 shows the trend is worsening again under Healey - not improving"
+  },
+  "tenYearComparison": {
+    "2010": -5000,
+    "2023": -50000,
+    "multiplier": "10x",
+    "quote": "Outmigration levels were 10 times greater in 2023 than they were in 2010",
+    "source": "Pioneer Institute Mapping Mass Migration December 2024"
+  },
+  "administrationComparison": {
+    "patrickEra": {
+      "governor": "Deval Patrick (D)",
+      "years": "2007-2015",
+      "avgAnnualOutmigration": -12000,
+      "note": "Relatively stable outmigration"
+    },
+    "bakerEra": {
+      "governor": "Charlie Baker (R)",
+      "years": "2015-2023",
+      "avgAnnualOutmigration": -33000,
+      "note": "Includes COVID spike 2020-2022 which drove massive outflows",
+      "worstYear": { "year": 2022, "netLoss": -54843 },
+      "contextNote": "COVID-era remote work enabled mass exodus that would have happened regardless of state policy"
+    },
+    "healeyEra": {
+      "governor": "Maura Healey (D)",
+      "years": "2023-present",
+      "avgAnnualOutmigration": -32500,
+      "trend": "Started improving post-COVID, now worsening again",
+      "2025data": "33,340 net loss - trending worse",
+      "concerningFactor": "Immigration slowdown means outmigration now more visible"
+    }
+  },
+  "incomeAndWealthFlight": {
+    "source": "IRS Statistics of Income Migration Data",
+    "agiLossHistory": {
+      "2012": { "netAGILoss": 900000000, "formatted": "$900 million" },
+      "2018": { "netAGILoss": 1500000000, "formatted": "$1.5 billion" },
+      "2019": { "netAGILoss": 2100000000, "formatted": "$2.1 billion" },
+      "2020": { "netAGILoss": 4300000000, "formatted": "$4.3 billion" },
+      "2021": { "netAGILoss": 4300000000, "formatted": "$4.3 billion" },
+      "2022": { "netAGILoss": 3900000000, "formatted": "$3.9 billion" }
+    },
+    "growthRate": "4x increase in AGI loss from 2012 to 2022",
+    "cumulativeLoss2020to2022": {
+      "amount": 10600000000,
+      "formatted": "$10.6 billion in AGI lost in just 3 years"
+    },
+    "highIncomeEarnerFlight": {
+      "finding": "55% of all income leaving Massachusetts is from those earning $200,000+",
+      "2021loss": "$2.6 billion from $200k+ earners (60% of total)",
+      "2022loss": "$2.2 billion from $200k+ earners (56% of total)",
+      "source": "Pioneer Institute analysis of IRS data"
+    },
+    "quote": "Massachusetts lost $10.6 billion in adjusted gross income to net out-migration between 2020 and 2022, more in those three years alone than the $10 billion it lost from 2012 to 2019"
+  },
+  "whereTheyreGoing": {
+    "topDestinations2022": [
+      { "state": "Florida", "netLoss": 11244, "reason": "No income tax, no estate tax" },
+      { "state": "New Hampshire", "netLoss": 9800, "reason": "No income tax (as of 2025, no interest/dividend tax either)" },
+      { "state": "Maine", "netLoss": 5500, "reason": "Lower cost of living" },
+      { "state": "South Carolina", "netLoss": 4200, "reason": "Lower taxes, lower cost of living" },
+      { "state": "Texas", "netLoss": 3800, "reason": "No income tax" }
+    ],
+    "cumulativeLoss2010to2023": {
+      "toFlorida": 90372,
+      "toNewHampshire": 98879,
+      "source": "Pioneer Institute"
+    },
+    "pattern": "67% of taxpayers who fled went to states without income tax",
+    "keyInsight": "The two states receiving the most Massachusetts residents (FL, NH) have NO income tax"
+  },
+  "whosLeaving": {
+    "byAge": {
+      "largestCohort": "26-35 year olds",
+      "2022data": "9,500 more filers leaving than coming - 5x the amount a decade earlier",
+      "concern": "Losing young talent hinders future innovation and economic growth",
+      "quote": "This loss of young talent hinders the state's future innovation and economic growth, which will compound over decades"
+    },
+    "byIncome": {
+      "unitedVanLines": "53% of residents leaving earn $150,000+ annually",
+      "irsData": "55% of AGI leaving is from $200k+ earners",
+      "pattern": "High earners are leaving at disproportionate rates"
+    },
+    "demographics": {
+      "observation": "25-44 year olds account for 44% of total AGI leaving the state",
+      "reasons": [
+        "Cannot find professional growth opportunities",
+        "Cannot afford housing costs",
+        "Remote work enables earning high salaries while living cheaper elsewhere"
+      ]
+    }
+  },
+  "whyTheyreLeaving": {
+    "source": "MOA Polling September 2024",
+    "topReasons": [
+      { "reason": "Rising housing prices", "percent": 79 },
+      { "reason": "Cost of living concerns", "percent": 77 },
+      { "reason": "High taxes", "percent": 66 }
+    ],
+    "taxBurdenPerception": {
+      "finding": "82% of respondents said taxes are too high",
+      "among18to34": "87% said taxes are too high",
+      "mostBurdensomeTax": "70.6% said income taxes cause them the most hardship"
+    },
+    "millionaireTaxImpact": {
+      "source": "Massachusetts Society of CPAs 2024 Survey",
+      "finding": "90% of CPAs surveyed indicated high-income clients considering leaving Massachusetts",
+      "millionaireTaxFactor": "64% reported the millionaire tax as a major factor in clients' decisions to move"
+    }
+  },
+  "futureOutlook": {
+    "currentPoll": {
+      "finding": "1 in 3 Massachusetts residents are either personally considering moving out of the state in 2026 or know someone who is",
+      "source": "MOA Polling",
+      "date": "January 2026"
+    },
+    "immigrationDependence": {
+      "reality": "Massachusetts population growth is now entirely dependent on immigration",
+      "2022to2024avg": "76,000 net international migrants per year",
+      "2025": "Only 40,000 net international migrants (return to pre-pandemic levels)",
+      "implication": "With immigration slowing under federal policy, outmigration losses will be more visible"
+    },
+    "economicWarning": {
+      "quote": "With an aging population and low natural population growth, Massachusetts cannot afford to lose residents to other states",
+      "source": "Pioneer Institute"
+    }
+  },
+  "nationalRanking": {
+    "outmigration2022": {
+      "rank": "5th worst",
+      "worseStates": ["California", "New York", "Illinois", "New Jersey"],
+      "context": "All 5 worst states have high tax burdens"
+    },
+    "taxFoundationRanking2025": {
+      "overallCompetitiveness": "9th worst (42nd of 50)",
+      "note": "The four worst U-Haul growth states (NY, NJ, MA, CA) all have burdensome tax laws"
+    }
+  },
+  "politicalImpact": {
+    "2012redistricting": "Massachusetts lost a US House district due to population loss relative to other states",
+    "economicImpact": "Fewer businesses and jobs created, leading to tax revenue shortfalls",
+    "quote": "When growth slows and people leave, we all lose out"
+  },
+  "quotesForSite": [
+    {
+      "quote": "Absent immigration, Massachusetts would already be losing population. Domestic out-migration rose again in 2025, and that's a clear signal that the state is becoming less competitive as a place to live, work, and do business.",
+      "speaker": "Aidan Enright",
+      "role": "Pioneer Institute Economic Research Associate",
+      "year": 2026
+    },
+    {
+      "quote": "Massachusetts lost $10.6 billion in adjusted gross income to net out-migration between 2020 and 2022, more in those three years alone than the $10 billion it lost from 2012 to 2019.",
+      "source": "Pioneer Institute",
+      "year": 2024
+    },
+    {
+      "quote": "Outmigration levels were 10 times greater in 2023 than they were in 2010.",
+      "source": "Pioneer Institute Mapping Mass Migration",
+      "year": 2024
+    },
+    {
+      "quote": "The top driving factors behind domestic out-migration from Massachusetts are taxes, housing costs, and health care expenses, with those leaving Massachusetts tending to be younger and earn more than the state average.",
+      "speaker": "Mark Williams",
+      "role": "BU Finance Professor",
+      "year": 2024
+    },
+    {
+      "quote": "90% of CPAs surveyed indicated that their high-income clients were considering leaving Massachusetts in the next year.",
+      "source": "Massachusetts Society of CPAs",
+      "year": 2024
+    }
+  ],
+  "bottomLine": {
+    "headline": "People are voting with their feet - and they're voting AGAINST Massachusetts",
+    "keyStats": [
+      "10x increase in outmigration from 2010 to 2023",
+      "$10.6 billion in income lost 2020-2022",
+      "5th worst state for outmigration nationally",
+      "33,340 net domestic loss in 2025 - trend worsening",
+      "1 in 3 residents considering leaving"
+    ],
+    "theQuestion": "If Massachusetts policies were working for residents, why are so many leaving for states with lower taxes and lower costs?"
+  }
+}

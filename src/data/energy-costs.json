@@ -1,0 +1,100 @@
+{
+  "title": "Massachusetts Electricity Costs vs Other States",
+  "lastUpdated": "2025-11",
+  "source": {
+    "name": "U.S. Energy Information Administration (EIA) via Choose Energy",
+    "url": "https://www.chooseenergy.com/electricity-rates-by-state/",
+    "accessedDate": "2026-02-03"
+  },
+  "summary": {
+    "maRate": 31.22,
+    "nationalAverage": 17.78,
+    "maRank": 3,
+    "totalStates": 50,
+    "percentAboveNational": 75.6,
+    "headline": "Massachusetts residents pay 75% more for electricity than the national average"
+  },
+  "residentialRates": {
+    "description": "Average residential electricity rates in cents per kWh (November 2025)",
+    "data": [
+      { "state": "Massachusetts", "rate": 31.22, "rank": 3, "yearOverYearChange": 3.3, "highlight": true },
+      { "state": "National Average", "rate": 17.78, "rank": null, "yearOverYearChange": 5.5, "highlight": true },
+      { "state": "Hawaii", "rate": 40.20, "rank": 1, "yearOverYearChange": 1.4 },
+      { "state": "California", "rate": 31.91, "rank": 2, "yearOverYearChange": 5.7 },
+      { "state": "Rhode Island", "rate": 30.82, "rank": 4, "yearOverYearChange": -13.5 },
+      { "state": "Maine", "rate": 27.85, "rank": 5, "yearOverYearChange": 10.6 },
+      { "state": "New Hampshire", "rate": 27.37, "rank": 6, "yearOverYearChange": 11.9 },
+      { "state": "Connecticut", "rate": 27.02, "rank": 7, "yearOverYearChange": -7.3 },
+      { "state": "New York", "rate": 26.49, "rank": 8, "yearOverYearChange": 7.1 },
+      { "state": "Vermont", "rate": 24.17, "rank": 10, "yearOverYearChange": -3.9 },
+      { "state": "Texas", "rate": 16.04, "rank": 29, "yearOverYearChange": 2.3 },
+      { "state": "Florida", "rate": 15.78, "rank": 27, "yearOverYearChange": 10.9 },
+      { "state": "North Dakota", "rate": 11.93, "rank": 50, "yearOverYearChange": 5.5 }
+    ]
+  },
+  "neighboringStatesComparison": {
+    "description": "Massachusetts vs neighboring New England states",
+    "data": [
+      { "state": "Massachusetts", "rate": 31.22, "percentAboveNational": 75.6 },
+      { "state": "Rhode Island", "rate": 30.82, "percentAboveNational": 73.3 },
+      { "state": "Maine", "rate": 27.85, "percentAboveNational": 56.6 },
+      { "state": "New Hampshire", "rate": 27.37, "percentAboveNational": 53.9 },
+      { "state": "Connecticut", "rate": 27.02, "percentAboveNational": 52.0 },
+      { "state": "Vermont", "rate": 24.17, "percentAboveNational": 35.9 },
+      { "state": "New York", "rate": 26.49, "percentAboveNational": 49.0 }
+    ],
+    "insight": "Massachusetts has the highest electricity rates in New England, even higher than Connecticut and New Hampshire"
+  },
+  "bostonSpecific": {
+    "description": "Boston metro area electricity costs (December 2024)",
+    "source": {
+      "name": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/regions/northeast/news-release/averageenergyprices_boston.htm"
+    },
+    "data": {
+      "electricityRate": 30.5,
+      "unit": "cents/kWh",
+      "percentAboveNational": 68,
+      "naturalGasRate": 2.51,
+      "naturalGasUnit": "dollars/therm",
+      "naturalGasPercentAboveNational": 65
+    },
+    "insight": "Boston area electricity prices have exceeded national average by at least 59% for the past five years"
+  },
+  "historicalTrend": {
+    "description": "Massachusetts electricity rate trend",
+    "data": [
+      { "year": 2018, "bostonRate": 22.5, "nationalRate": 13.4, "percentDifference": 67.9 },
+      { "year": 2023, "bostonRate": 28.5, "nationalRate": 16.9, "percentDifference": 68.6 },
+      { "year": 2024, "bostonRate": 28.7, "nationalRate": 16.43, "percentDifference": 74.7 },
+      { "year": 2025, "bostonRate": 30.5, "nationalRate": 17.78, "percentDifference": 71.5 }
+    ],
+    "insight": "Massachusetts electricity costs have consistently been 60-75% above national average for years"
+  },
+  "commercialRates": {
+    "description": "Business electricity rates show similar pattern",
+    "data": [
+      { "state": "Massachusetts", "rate": 23.93, "rank": 3, "yearOverYearChange": 14.9 },
+      { "state": "National Average", "rate": 13.19, "rank": null, "yearOverYearChange": 6.8 },
+      { "state": "Texas", "rate": 8.19, "rank": 47, "yearOverYearChange": -2.5 },
+      { "state": "North Dakota", "rate": 7.40, "rank": 50, "yearOverYearChange": 8.8 }
+    ],
+    "insight": "Massachusetts businesses pay 81% more for electricity than national average, hurting job creation"
+  },
+  "whyItMatters": {
+    "averageMonthlyUsage": 559,
+    "unit": "kWh",
+    "maMonthlyBill": 167.36,
+    "nationalMonthlyBill": 125.66,
+    "annualExtraCost": 500.40,
+    "description": "Massachusetts households pay approximately $500 more per year than the national average just for electricity"
+  },
+  "keyTakeaways": [
+    "Massachusetts has the 3rd highest electricity rates in the nation",
+    "MA residents pay 75% more than the national average for electricity",
+    "Boston area rates have exceeded national average by 59%+ for 5 consecutive years",
+    "MA businesses pay 81% more for electricity, making the state less competitive",
+    "The average MA household pays ~$500/year more than the national average",
+    "Despite high costs, MA generates only 41% of its own electricity needs"
+  ]
+}

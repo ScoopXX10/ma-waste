@@ -1,0 +1,235 @@
+{
+  "title": "The Massachusetts Squeeze: Income vs. Cost Growth",
+  "subtitle": "Wages have not kept pace with rising taxes, energy, and housing costs",
+  "lastUpdated": "2026-02",
+  
+  "executiveSummary": {
+    "keyFinding": "From 2015-2025, Massachusetts costs rose 2-3x faster than incomes",
+    "incomeGrowth": "4.1% (inflation-adjusted, 2015-2024)",
+    "electricityGrowth": "65%",
+    "naturalGasGrowth": "93%",
+    "propertyTaxLevyGrowth": "49.5%",
+    "homePriceGrowth": "90%",
+    "verdict": "Middle-class families are being squeezed from all sides"
+  },
+
+  "incomeData": {
+    "source": "US Census Bureau American Community Survey, FRED",
+    "medianHouseholdIncome": {
+      "2015": 70628,
+      "2020": 99565,
+      "2023": 101341,
+      "2024": 113900,
+      "fiveYearAvg2020to2024": 131675
+    },
+    "realGrowth": {
+      "period": "2015-2019 to 2020-2024",
+      "inflationAdjustedGrowth": "4.1%",
+      "nationalAverage": "5.5%",
+      "newHampshire": "5.1%",
+      "rhodeIsland": "6.2%",
+      "note": "MA income growth LAGGED behind national average and neighbors"
+    },
+    "wageGrowth": {
+      "bostonArea2025": "2.8% annual wage growth",
+      "national2025": "3.5% annual wage growth",
+      "source": "BLS Employment Cost Index, June 2025",
+      "note": "Boston wage growth trails national average"
+    },
+    "economicPerformance": {
+      "gdpGrowth2020to2024": "11.9%",
+      "nationalGdpGrowth": "13.3%",
+      "florida": "17.2%",
+      "texas": "15.9%",
+      "newHampshire": "14.8%",
+      "source": "Pioneer Institute 2025",
+      "note": "MA economic growth trails nation and competitor states"
+    }
+  },
+
+  "energyCosts": {
+    "electricity": {
+      "source": "EIA, BLS, Fall River Reporter analysis",
+      "priceHistory": {
+        "2015": { "maRate": 18.5, "unit": "cents/kWh" },
+        "2023": { "maRate": 27.5, "unit": "cents/kWh" },
+        "2024_december": { "maRate": 30.5, "unit": "cents/kWh", "nationalAvg": 17.6 },
+        "2026_january": { "maRate": 31.37, "unit": "cents/kWh", "nationalAvg": 17.98 }
+      },
+      "tenYearChange": {
+        "maIncrease": "65%",
+        "nationalIncrease": "32%",
+        "maPremium": "MA rose 2x faster than national average"
+      },
+      "currentPremium": "74% above national average",
+      "annualExtraCost": "$500+ per household vs national average"
+    },
+    "naturalGas": {
+      "source": "EIA, BLS",
+      "priceHistory": {
+        "2015": { "maRate": 1.30, "unit": "$/therm" },
+        "2023": { "maRate": 2.20, "unit": "$/therm" },
+        "2024_december": { "maRate": 2.51, "unit": "$/therm", "nationalAvg": 1.52 }
+      },
+      "tenYearChange": {
+        "maIncrease": "93%",
+        "nationalIncrease": "25%",
+        "maPremium": "MA rose nearly 4x faster than national average"
+      },
+      "currentPremium": "65% above national average",
+      "pipelineContext": "Governor Healey (as AG) blocked two natural gas pipeline projects that would have increased supply"
+    },
+    "upcomingRateHikes": {
+      "approved2024": "MA DPU approved 25-30% rate hikes for Eversource, 11-13% for National Grid",
+      "source": "Fall River Reporter"
+    },
+    "massSaveProgram": {
+      "description": "Energy efficiency program funded by ratepayers",
+      "totalCost2008to2025": "$16 billion",
+      "annualCost2008": "$200 million",
+      "annualCost2025": "$1.5 billion",
+      "note": "Costs passed to consumers via 'energy efficiency' charges on bills"
+    }
+  },
+
+  "propertyTaxGrowth": {
+    "source": "MA Division of Local Services",
+    "totalLevyGrowth": {
+      "fy2015": 14600000000,
+      "fy2024": 21800000000,
+      "fy2025": 22900000000,
+      "tenYearGrowth": "49.5%",
+      "dollarIncrease": "$7.2 billion"
+    },
+    "fy2024toFy2025": {
+      "increase": "5.1%",
+      "dollarIncrease": "$1.1 billion"
+    },
+    "averageTaxBillGrowth": {
+      "2003": 3094,
+      "2015": 5500,
+      "2020": 5969,
+      "2025": 8000,
+      "note": "Average single-family tax bill more than doubled since 2003"
+    },
+    "assessedValueGrowth": {
+      "fy2015": 968500000000,
+      "fy2024": 1811000000000,
+      "growth": "87%",
+      "dollarIncrease": "$842.9 billion"
+    }
+  },
+
+  "housingCostGrowth": {
+    "source": "Warren Group, Zillow",
+    "medianSingleFamilyPrice": {
+      "2015": 335000,
+      "2020": 447000,
+      "2022": 550000,
+      "2024": 615000,
+      "2025": 638000
+    },
+    "tenYearGrowth": {
+      "2015to2025": "90%",
+      "dollarIncrease": "$303,000"
+    },
+    "incomeVsHousingGap": {
+      "homePriceGrowthSince2000": "73%",
+      "incomeGrowthSince2000": "4% (inflation-adjusted)",
+      "source": "Mass.gov",
+      "note": "Home prices rose 18x faster than incomes"
+    },
+    "affordabilityCollapse": {
+      "2015": "57 municipalities had median prices below $500k",
+      "2025": "Only 3 municipalities remain below $500k (Brockton, Halifax, Wareham)",
+      "source": "Boston Indicators Greater Boston Housing Report Card 2025"
+    }
+  },
+
+  "theSqueeze": {
+    "description": "Comparison of growth rates 2015-2025",
+    "growthRates": [
+      { "category": "Median Household Income (real)", "growth": 4.1, "unit": "%" },
+      { "category": "Electricity Costs", "growth": 65, "unit": "%" },
+      { "category": "Natural Gas Costs", "growth": 93, "unit": "%" },
+      { "category": "Property Tax Levy", "growth": 49.5, "unit": "%" },
+      { "category": "Home Prices", "growth": 90, "unit": "%" }
+    ],
+    "chartData": [
+      { "category": "Income", "growth": 4.1 },
+      { "category": "Electricity", "growth": 65 },
+      { "category": "Natural Gas", "growth": 93 },
+      { "category": "Property Tax", "growth": 49.5 },
+      { "category": "Home Prices", "growth": 90 }
+    ],
+    "bottomLine": "Costs have risen 10-20x faster than incomes"
+  },
+
+  "comparisonToCompetitorStates": {
+    "note": "States receiving most MA outmigrants",
+    "florida": {
+      "incomeTax": "0%",
+      "electricityRate": "~14 cents/kWh",
+      "gdpGrowth2020to2024": "17.2%"
+    },
+    "newHampshire": {
+      "incomeTax": "0%",
+      "interestDividendTax": "0% (eliminated Jan 2025)",
+      "gdpGrowth2020to2024": "14.8%",
+      "incomeGrowth": "5.1% (vs MA 4.1%)"
+    },
+    "texas": {
+      "incomeTax": "0%",
+      "electricityRate": "~12 cents/kWh",
+      "gdpGrowth2020to2024": "15.9%"
+    }
+  },
+
+  "quotesForSite": [
+    {
+      "quote": "Massachusetts natural gas prices up 93%, electricity up 65% over the last 10 years - 2-3 times faster than the national average.",
+      "source": "Fall River Reporter analysis of EIA/BLS data",
+      "year": 2025
+    },
+    {
+      "quote": "Median home prices have risen 73% since 2000, while median household income has risen only 4% over the same period, after adjusting for inflation.",
+      "source": "Mass.gov",
+      "year": 2024
+    },
+    {
+      "quote": "The typical Massachusetts household earned $131,675 annually over the 2020-2024 period, a 4.1 percent increase from 2015-2019 after adjusting for inflation... trailing the national average of 5.5 percent.",
+      "source": "Boston Globe / Census Bureau",
+      "year": 2026
+    },
+    {
+      "quote": "Massachusetts' private sector per capita real gross state product increased by 11.9 percent, trailing the national average of 13.3 percent... even farther behind Florida (17.2%), Texas (15.9%), and New Hampshire (14.8%).",
+      "source": "Pioneer Institute",
+      "year": 2025
+    },
+    {
+      "quote": "Tax levies grew by 49.5% ($7.2 billion) from $14.6 billion to $21.8 billion from FY2015 to FY2024.",
+      "source": "MA Division of Local Services",
+      "year": 2024
+    }
+  ],
+
+  "policyConnections": {
+    "blockedPipelines": {
+      "actor": "Maura Healey (as Attorney General, 2015-2023)",
+      "action": "Blocked two natural gas pipeline projects",
+      "result": "Constrained supply contributing to 93% price increase",
+      "source": "Fall River Reporter"
+    },
+    "massSaveMandate": {
+      "cost": "$16 billion since 2008, now $1.5 billion/year",
+      "funding": "Ratepayer surcharges on utility bills",
+      "impact": "Adds to already-high energy costs"
+    },
+    "millionaireTax": {
+      "enacted": "2023",
+      "rate": "4% surtax on income over $1 million",
+      "revenue": "$2.98 billion in FY2025",
+      "impact": "90% of CPAs report high-income clients considering leaving"
+    }
+  }
+}

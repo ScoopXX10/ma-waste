@@ -1,0 +1,599 @@
+{
+  "metadata": {
+    "title": "MA-WASTE New Features Data",
+    "created": "2026-02-04",
+    "description": "Comprehensive data for six new analytical features"
+  },
+
+  "budgetBreakdown": {
+    "title": "Where Your Tax Dollar Goes",
+    "fiscalYear": "FY2026",
+    "totalBudget": 61010000000,
+    "source": "Massachusetts Legislature, July 2025",
+    "categories": [
+      {
+        "name": "MassHealth (Medicaid)",
+        "amount": 22100000000,
+        "percentOfBudget": 36.2,
+        "note": "62% of spending INCREASE goes here alone",
+        "yearOverYearChange": "+$2B from FY2025"
+      },
+      {
+        "name": "K-12 Education (Chapter 70)",
+        "amount": 7361864552,
+        "percentOfBudget": 12.1,
+        "note": "Includes Student Opportunity Act funding"
+      },
+      {
+        "name": "Pension Contributions",
+        "amount": 4933000000,
+        "percentOfBudget": 8.1,
+        "note": "FY26 appropriation toward $42.3B unfunded liability"
+      },
+      {
+        "name": "Developmental Disabilities (DDS)",
+        "amount": 3260000000,
+        "percentOfBudget": 5.3,
+        "note": "Includes $2B for community residential"
+      },
+      {
+        "name": "Higher Education",
+        "amount": 1900000000,
+        "percentOfBudget": 3.1,
+        "note": "Includes MassEducate free community college"
+      },
+      {
+        "name": "Early Childhood & Care",
+        "amount": 1700000000,
+        "percentOfBudget": 2.8,
+        "note": "10% increase from FY2025"
+      },
+      {
+        "name": "Transportation (Direct)",
+        "amount": 1620000000,
+        "percentOfBudget": 2.7,
+        "note": "Includes MBTA, MassDOT, RTAs"
+      },
+      {
+        "name": "Emergency Shelter System",
+        "amount": 1000000000,
+        "percentOfBudget": 1.6,
+        "note": "$15,166/month per family",
+        "highlight": true
+      },
+      {
+        "name": "Mental Health (DMH)",
+        "amount": 622400000,
+        "percentOfBudget": 1.0,
+        "note": "Adult support services"
+      },
+      {
+        "name": "Other Programs",
+        "amount": 16512735448,
+        "percentOfBudget": 27.1,
+        "note": "Courts, prisons, environment, admin, etc."
+      }
+    ],
+    "unfundedLiabilities": {
+      "pensionTotal": 42251534000,
+      "fundedRatio": 65.0,
+      "note": "All 105 systems: ~$43.4B unfunded (PERAC)",
+      "teachersUnfunded": 25500000000,
+      "stateEmployeesUnfunded": 14000000000
+    },
+    "keyFacts": [
+      "MassHealth alone = 36% of state budget",
+      "Pension payments = $4.9B/year just to chip away at $42B hole",
+      "Budget grew $3.3B (5.7%) in ONE YEAR",
+      "Fair Share surtax raised $2.4B from millionaires"
+    ]
+  },
+
+  "tippingPointTimeline": {
+    "title": "The Tipping Point",
+    "subtitle": "When Massachusetts Started to Fail",
+    "events": [
+      {
+        "year": 2014,
+        "month": "January",
+        "event": "Six NE governors propose energy tariff",
+        "type": "policy",
+        "description": "Plan to subsidize natural gas pipeline"
+      },
+      {
+        "year": 2015,
+        "month": "January",
+        "event": "Maura Healey becomes Attorney General",
+        "type": "political",
+        "description": "Begins anti-pipeline campaign"
+      },
+      {
+        "year": 2015,
+        "month": null,
+        "event": "AG Healey commissions study claiming no pipeline needed",
+        "type": "policy",
+        "description": "Claimed MA could maintain reliability through 2030 without new gas"
+      },
+      {
+        "year": 2016,
+        "month": "March",
+        "event": "Kinder Morgan cancels $3.3B Northeast Energy Direct pipeline",
+        "type": "energy",
+        "description": "188-mile pipeline through MA/NH abandoned"
+      },
+      {
+        "year": 2016,
+        "month": "August",
+        "event": "MA Supreme Court blocks pipeline financing",
+        "type": "legal",
+        "description": "Ruled utilities can't charge ratepayers for pipeline development"
+      },
+      {
+        "year": 2016,
+        "month": "August",
+        "event": "National Grid & Eversource abandon Access Northeast",
+        "type": "energy",
+        "description": "$3B pipeline project collapses"
+      },
+      {
+        "year": 2017,
+        "month": "Winter",
+        "event": "Energy crisis - MA imports Russian LNG",
+        "type": "crisis",
+        "description": "Pipeline shortage forces imports; coal use spikes to 40%"
+      },
+      {
+        "year": 2017,
+        "month": "June",
+        "event": "Enbridge officially halts Access Northeast",
+        "type": "energy",
+        "description": "Final nail in pipeline coffin"
+      },
+      {
+        "year": 2020,
+        "month": "March",
+        "event": "COVID pandemic begins - urban exodus starts",
+        "type": "crisis",
+        "description": "Remote work triggers outmigration acceleration"
+      },
+      {
+        "year": 2021,
+        "month": null,
+        "event": "Home prices surge 15%+ in single year",
+        "type": "housing",
+        "description": "Median price crosses $500K"
+      },
+      {
+        "year": 2022,
+        "month": "April",
+        "event": "Healey brags: 'I stopped two gas pipelines'",
+        "type": "political",
+        "description": "On video at campaign event"
+      },
+      {
+        "year": 2022,
+        "month": null,
+        "event": "Worst outmigration year: -54,843 net domestic",
+        "type": "exodus",
+        "description": "Record flight from Massachusetts"
+      },
+      {
+        "year": 2022,
+        "month": "November",
+        "event": "Millionaire Tax (Fair Share) passes",
+        "type": "policy",
+        "description": "4% surtax on income over $1M"
+      },
+      {
+        "year": 2023,
+        "month": "January",
+        "event": "Healey becomes Governor",
+        "type": "political",
+        "description": "Pipeline blocker now runs the state"
+      },
+      {
+        "year": 2023,
+        "month": "August",
+        "event": "Emergency shelter crisis declared",
+        "type": "crisis",
+        "description": "State begins spending $1B+/year on migrant shelters"
+      },
+      {
+        "year": 2023,
+        "month": null,
+        "event": "Millionaire Tax takes effect",
+        "type": "policy",
+        "description": "High earners face 9% state tax rate"
+      },
+      {
+        "year": 2024,
+        "month": "Winter",
+        "event": "Heating bills spike 50%+",
+        "type": "crisis",
+        "description": "Some residents see bills double"
+      },
+      {
+        "year": 2024,
+        "month": null,
+        "event": "State Auditor finds 'improper and unlawful' shelter procurement",
+        "type": "scandal",
+        "description": "No-bid contracts, lack of oversight"
+      },
+      {
+        "year": 2025,
+        "month": null,
+        "event": "33,340 more people leave than arrive",
+        "type": "exodus",
+        "description": "Immigration can no longer mask population decline"
+      },
+      {
+        "year": 2025,
+        "month": "Summer",
+        "event": "Electric rates hit 34¢/kWh",
+        "type": "energy",
+        "description": "75% above national average"
+      },
+      {
+        "year": 2025,
+        "month": "October",
+        "event": "Healey claims: 'I never stopped pipelines'",
+        "type": "political",
+        "description": "Contradicts 2022 video; critics call it 'gaslighting'"
+      },
+      {
+        "year": 2026,
+        "month": "January",
+        "event": "Energy rate hikes: Eversource +25-30%",
+        "type": "energy",
+        "description": "National Grid +11-13% also announced"
+      }
+    ]
+  },
+
+  "personalBurdenCalculator": {
+    "title": "Your Massachusetts Premium",
+    "description": "How much more you pay to live in MA vs national average",
+    "methodology": "Compare MA costs to national averages across key categories",
+    
+    "baselineCosts": {
+      "national": {
+        "averagePropertyTaxRate": 0.90,
+        "electricityPerKwh": 0.178,
+        "naturalGasPerTherm": 1.35,
+        "medianHomePrice": 400000,
+        "stateTaxRate": 4.6
+      },
+      "massachusetts": {
+        "averagePropertyTaxRate": 1.12,
+        "electricityPerKwh": 0.3122,
+        "naturalGasPerTherm": 2.51,
+        "medianHomePrice": 638000,
+        "stateTaxRate": 5.0,
+        "surtaxThreshold": 1083150,
+        "surtaxRate": 9.0
+      }
+    },
+
+    "calculatorInputs": [
+      {
+        "field": "homeValue",
+        "label": "Home Value",
+        "type": "currency",
+        "default": 638000
+      },
+      {
+        "field": "annualIncome",
+        "label": "Annual Household Income",
+        "type": "currency",
+        "default": 100000
+      },
+      {
+        "field": "heatingType",
+        "label": "Primary Heating",
+        "type": "select",
+        "options": ["Natural Gas", "Electric", "Oil", "Other"],
+        "default": "Natural Gas"
+      },
+      {
+        "field": "monthlyElectricKwh",
+        "label": "Monthly Electric Usage (kWh)",
+        "type": "number",
+        "default": 900
+      },
+      {
+        "field": "town",
+        "label": "Town (for property tax)",
+        "type": "select",
+        "note": "Uses town-specific tax rate"
+      }
+    ],
+
+    "exampleCalculation": {
+      "inputs": {
+        "homeValue": 638000,
+        "annualIncome": 100000,
+        "heatingType": "Natural Gas",
+        "monthlyElectricKwh": 900
+      },
+      "premiums": {
+        "propertyTax": {
+          "ma": 7146,
+          "national": 5742,
+          "premium": 1404
+        },
+        "electricity": {
+          "ma": 3372,
+          "national": 1922,
+          "premium": 1450
+        },
+        "naturalGas": {
+          "ma": 1506,
+          "national": 810,
+          "premium": 696
+        },
+        "stateTax": {
+          "ma": 5000,
+          "national": 4600,
+          "premium": 400
+        },
+        "housingPremium": {
+          "note": "Not included - just opportunity cost",
+          "maMedian": 638000,
+          "nationalMedian": 400000,
+          "difference": 238000
+        }
+      },
+      "totalAnnualPremium": 3950,
+      "monthlyPremium": 329,
+      "headline": "Living in Massachusetts costs you $3,950 more per year than the national average"
+    }
+  },
+
+  "stateComparison": {
+    "title": "What $100K Buys You",
+    "description": "Purchasing power comparison across states",
+    
+    "states": {
+      "massachusetts": {
+        "grossSalary": 100000,
+        "federalTax": 14439,
+        "stateTax": 5000,
+        "fica": 7650,
+        "netSalary": 72911,
+        "costOfLivingIndex": 141.2,
+        "medianHomePrice": 638000,
+        "averageElectricRate": 0.3122,
+        "stateTaxNote": "5% flat rate (9% over $1.08M)"
+      },
+      "florida": {
+        "grossSalary": 100000,
+        "federalTax": 14439,
+        "stateTax": 0,
+        "fica": 7650,
+        "netSalary": 77911,
+        "costOfLivingIndex": 100.9,
+        "medianHomePrice": 420000,
+        "averageElectricRate": 0.16,
+        "stateTaxNote": "No state income tax"
+      },
+      "newHampshire": {
+        "grossSalary": 100000,
+        "federalTax": 14439,
+        "stateTax": 0,
+        "fica": 7650,
+        "netSalary": 77911,
+        "costOfLivingIndex": 109.7,
+        "medianHomePrice": 520000,
+        "averageElectricRate": 0.22,
+        "stateTaxNote": "No income tax on wages"
+      },
+      "texas": {
+        "grossSalary": 100000,
+        "federalTax": 14439,
+        "stateTax": 0,
+        "fica": 7650,
+        "netSalary": 77911,
+        "costOfLivingIndex": 93.9,
+        "medianHomePrice": 309000,
+        "averageElectricRate": 0.14,
+        "stateTaxNote": "No state income tax"
+      }
+    },
+
+    "annualizedComparison": {
+      "description": "After taxes + housing + energy, what's left?",
+      "assumptions": {
+        "housingCost": "28% of gross income",
+        "energyCost": "Based on state rates",
+        "otherCosts": "Held constant"
+      },
+      "disposableIncome": {
+        "massachusetts": {
+          "afterTax": 72911,
+          "housing": 28000,
+          "energy": 4800,
+          "remaining": 40111
+        },
+        "florida": {
+          "afterTax": 77911,
+          "housing": 23520,
+          "energy": 2400,
+          "remaining": 51991
+        },
+        "newHampshire": {
+          "afterTax": 77911,
+          "housing": 26040,
+          "energy": 3000,
+          "remaining": 48871
+        },
+        "texas": {
+          "afterTax": 77911,
+          "housing": 21840,
+          "energy": 2100,
+          "remaining": 53971
+        }
+      },
+      "verdict": {
+        "floridaAdvantage": 11880,
+        "texasAdvantage": 13860,
+        "nhAdvantage": 8760,
+        "headline": "Same $100K salary gives you $13,860 MORE in Texas than Massachusetts"
+      }
+    }
+  },
+
+  "affordabilityGap": {
+    "title": "The Affordability Gap",
+    "subtitle": "When Homes Pulled Away from Incomes",
+    
+    "historicalData": [
+      {"year": 2000, "medianHomePrice": 185000, "medianHouseholdIncome": 50502, "priceToIncomeRatio": 3.66},
+      {"year": 2005, "medianHomePrice": 365000, "medianHouseholdIncome": 56592, "priceToIncomeRatio": 6.45},
+      {"year": 2010, "medianHomePrice": 340000, "medianHouseholdIncome": 64081, "priceToIncomeRatio": 5.31},
+      {"year": 2015, "medianHomePrice": 345000, "medianHouseholdIncome": 70628, "priceToIncomeRatio": 4.88},
+      {"year": 2018, "medianHomePrice": 425000, "medianHouseholdIncome": 79835, "priceToIncomeRatio": 5.32},
+      {"year": 2020, "medianHomePrice": 480000, "medianHouseholdIncome": 84385, "priceToIncomeRatio": 5.69},
+      {"year": 2022, "medianHomePrice": 570000, "medianHouseholdIncome": 96505, "priceToIncomeRatio": 5.91},
+      {"year": 2024, "medianHomePrice": 620000, "medianHouseholdIncome": 104828, "priceToIncomeRatio": 5.91},
+      {"year": 2025, "medianHomePrice": 638000, "medianHouseholdIncome": 108000, "priceToIncomeRatio": 5.91}
+    ],
+
+    "keyMetrics": {
+      "homePriceChange2000to2025": {
+        "startPrice": 185000,
+        "endPrice": 638000,
+        "percentChange": 245,
+        "dollarChange": 453000
+      },
+      "incomeChange2000to2025": {
+        "startIncome": 50502,
+        "endIncome": 108000,
+        "percentChange": 114,
+        "dollarChange": 57498
+      },
+      "ratioChange": {
+        "start": 3.66,
+        "end": 5.91,
+        "interpretation": "Homes went from 3.7x income to 5.9x income"
+      }
+    },
+
+    "massGovQuote": {
+      "text": "Median home prices have risen 73% since 2000, while median household income has risen only 4%",
+      "source": "Mass.gov Housing Report",
+      "note": "Adjusted for inflation"
+    },
+
+    "nationalComparison": {
+      "maPriceToIncomeRatio": 5.91,
+      "nationalPriceToIncomeRatio": 4.2,
+      "difference": "41% more unaffordable than national average"
+    }
+  },
+
+  "exodusFlows": {
+    "title": "The Exodus",
+    "subtitle": "Where Massachusetts Wealth Is Flowing",
+    
+    "topDestinations": [
+      {
+        "state": "New Hampshire",
+        "netMigration2015to2023": 99000,
+        "agiLoss": 2800000000,
+        "averageIncomeLeavers": 85000,
+        "distance": "Border state",
+        "reason": "No income tax, lower costs"
+      },
+      {
+        "state": "Florida",
+        "netMigration2015to2023": 90000,
+        "agiLoss": 4200000000,
+        "averageIncomeLeavers": 125000,
+        "distance": "1,300 miles",
+        "reason": "No income tax, weather, lower costs"
+      },
+      {
+        "state": "Texas",
+        "netMigration2015to2023": 35000,
+        "agiLoss": 1200000000,
+        "averageIncomeLeavers": 95000,
+        "distance": "1,800 miles",
+        "reason": "No income tax, jobs, housing"
+      },
+      {
+        "state": "South Carolina",
+        "netMigration2015to2023": 28000,
+        "agiLoss": 800000000,
+        "averageIncomeLeavers": 72000,
+        "distance": "900 miles",
+        "reason": "Lower costs, weather"
+      },
+      {
+        "state": "Maine",
+        "netMigration2015to2023": 25000,
+        "agiLoss": 450000000,
+        "averageIncomeLeavers": 62000,
+        "distance": "Border state",
+        "reason": "Rural lifestyle, lower costs"
+      },
+      {
+        "state": "North Carolina",
+        "netMigration2015to2023": 22000,
+        "agiLoss": 700000000,
+        "averageIncomeLeavers": 85000,
+        "distance": "700 miles",
+        "reason": "Research Triangle jobs, lower costs"
+      }
+    ],
+
+    "aggregateStats": {
+      "totalNetOutmigration2010to2024": 350000,
+      "totalAGILoss": 10600000000,
+      "averageAnnualLoss": 750000000,
+      "trend": "Accelerating - 10x worse than 2010"
+    },
+
+    "incomeProfile": {
+      "leaversMedianIncome": 110000,
+      "arriverMedianIncome": 48000,
+      "incomeGap": 62000,
+      "note": "Wealthy leaving, lower-income arriving"
+    },
+
+    "quote": {
+      "text": "Absent immigration, Massachusetts would already be losing population",
+      "source": "Pioneer Institute, 2026"
+    }
+  },
+
+  "townTaxData": {
+    "description": "Property tax extremes in Massachusetts",
+    "source": "MA Division of Local Services FY2025",
+    
+    "highest": [
+      {"town": "Weston", "avgSingleFamilyTaxBill": 24448, "taxRate": 10.95},
+      {"town": "Brookline", "avgSingleFamilyTaxBill": 17891, "taxRate": 10.04},
+      {"town": "Cambridge", "avgSingleFamilyTaxBill": 16842, "taxRate": 5.86},
+      {"town": "Wellesley", "avgSingleFamilyTaxBill": 16500, "taxRate": 10.25},
+      {"town": "Newton", "avgSingleFamilyTaxBill": 15800, "taxRate": 10.54}
+    ],
+    
+    "lowest": [
+      {"town": "Hancock", "avgSingleFamilyTaxBill": 712, "taxRate": 6.53},
+      {"town": "Mount Washington", "avgSingleFamilyTaxBill": 1200, "taxRate": 4.87},
+      {"town": "Tolland", "avgSingleFamilyTaxBill": 1450, "taxRate": 8.45}
+    ],
+
+    "disparity": {
+      "highest": 24448,
+      "lowest": 712,
+      "ratio": 34,
+      "headline": "Weston residents pay 34x more than Hancock residents"
+    },
+
+    "stateAverage": {
+      "avgSingleFamilyTaxBill": 7500,
+      "note": "Varies widely by town"
+    }
+  }
+}

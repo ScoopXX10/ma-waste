@@ -1,0 +1,272 @@
+{
+  "title": "Massachusetts Spending & Leadership Accountability",
+  "lastUpdated": "2026-02",
+  "overview": {
+    "totalStateBudget": {
+      "fy2024": 55.98,
+      "fy2025": 58.0,
+      "unit": "billion USD",
+      "growthRate": "3.6%"
+    },
+    "keyMessage": "Massachusetts taxpayers are paying among the highest costs in the nation while leadership makes decisions that prioritize political optics over fiscal responsibility"
+  },
+  "leadership": {
+    "governor": {
+      "name": "Maura Healey",
+      "party": "Democrat",
+      "tookOffice": "January 2023",
+      "previousRole": "Massachusetts Attorney General",
+      "ltGovernor": "Kim Driscoll"
+    },
+    "senators": {
+      "senior": {
+        "name": "Elizabeth Warren",
+        "party": "Democrat",
+        "inOfficeSince": 2013
+      },
+      "junior": {
+        "name": "Ed Markey",
+        "party": "Democrat",
+        "inOfficeSince": 2013
+      }
+    },
+    "stateLegislature": {
+      "houseLeader": "Speaker Ronald Mariano (D)",
+      "senateLeader": "Senate President Karen Spilka (D)",
+      "composition": "Democratic supermajority in both chambers"
+    }
+  },
+  "shelterCrisis": {
+    "source": {
+      "name": "State Auditor Diana DiZoglio, Boston Globe, WBUR",
+      "urls": [
+        "https://www.mass.gov/news/shelter-audit-finds-contract-mismanagement-improper-and-unlawful-use-of-emergency-procurements",
+        "https://www.bostonglobe.com/2024/07/30/metro/migrant-crisis-healey-shelter-cost-1-billion/"
+      ]
+    },
+    "timeline": {
+      "emergencyDeclared": "August 8, 2023",
+      "declaredBy": "Governor Maura Healey",
+      "emergencyEnded": "August 1, 2025"
+    },
+    "costs": {
+      "fy2025Spending": 1000000000,
+      "fy2025SpendingFormatted": "$1+ billion",
+      "costPerFamilyPerMonth": 15166,
+      "costPerFamilyPerWeek": 3496,
+      "totalEstimatedCost": "Estimated $4-5 billion total",
+      "source": "State shelter reports, Boston Herald"
+    },
+    "auditFindings": {
+      "auditor": "Diana DiZoglio",
+      "releaseDate": "May 20, 2025",
+      "reportLength": "74 pages",
+      "keyFindings": [
+        "EOHLC failed to adequately assess increased demand for shelter services",
+        "Improper and unlawful no-bid emergency procurements",
+        "No-bid contracts resulted in unnecessarily high costs and inefficiencies",
+        "Duration of no-bid contracts was excessive",
+        "Lack of transparency and accountability in contracting"
+      ],
+      "specificExamples": [
+        {
+          "vendor": "Spinelli Ravioli Manufacturing Company",
+          "contractType": "No-bid",
+          "amount": 10000000,
+          "issue": "Overpayments of 9.6% on deliveries; contract lasted 8 months instead of weeks",
+          "location": "East Boston"
+        },
+        {
+          "vendor": "Mercedes Cab Company / Pilgrim Transit",
+          "contractType": "No-bid",
+          "amount": 6800000,
+          "issue": "Charged $140 for 223-foot parking lot ride; excessive costs",
+          "location": "Cape Cod"
+        }
+      ],
+      "healeyResponse": "Rejected audit conclusions; said 'I doubt' additional action needed"
+    },
+    "accountability": {
+      "responsibleParties": [
+        {
+          "name": "Maura Healey",
+          "role": "Governor",
+          "action": "Declared state of emergency, approved no-bid contracts, rejected audit findings"
+        },
+        {
+          "name": "Ed Augustus",
+          "role": "Housing Secretary",
+          "action": "Oversaw EOHLC during crisis, defended no-bid contracts"
+        },
+        {
+          "name": "Kim Driscoll",
+          "role": "Lt. Governor",
+          "action": "Supported administration's shelter policies"
+        }
+      ]
+    }
+  },
+  "energyPolicy": {
+    "source": {
+      "name": "Mass.gov, Commonwealth Beacon",
+      "urls": [
+        "https://www.mass.gov/news/governor-healey-signs-climate-law-to-advance-clean-energy-transition-create-jobs-and-lower-costs",
+        "https://commonwealthbeacon.org/energy/healey-administration-pushes-back-clean-heat-standard-to-2028-as-affordability-concerns-mount/"
+      ]
+    },
+    "context": {
+      "maElectricityRank": 3,
+      "rateVsNational": "75% above national average",
+      "consumesVsProduces": "Consumes 17x more energy than it produces"
+    },
+    "legislation": {
+      "climateAct2024": {
+        "name": "An Act Promoting a Clean Energy Grid, Advancing Equity, and Protecting Ratepayers",
+        "signedBy": "Governor Maura Healey",
+        "signedDate": "November 21, 2024",
+        "requirements": [
+          "Net zero emissions by 2050",
+          "50% emissions reduction by 2030",
+          "75% emissions reduction by 2040",
+          "Consolidated permitting for clean energy projects"
+        ]
+      }
+    },
+    "delays": {
+      "cleanHeatStandard": {
+        "originalDate": "2026",
+        "delayedTo": "2028",
+        "reason": "Affordability concerns",
+        "announcedQuietly": "December 23, 2025"
+      },
+      "electricVehicleMandate": {
+        "status": "Delayed",
+        "reason": "Industry pressure"
+      }
+    },
+    "impact": {
+      "description": "Aggressive climate mandates contribute to highest electricity costs in continental US while state delays implementation when political costs become apparent",
+      "contradiction": "Healey campaigns on 'being a climate governor' while delaying climate policies when they threaten reelection"
+    }
+  },
+  "federalSpending": {
+    "warrenMarkeyClaims": {
+      "totalClaimed": 50000000000,
+      "totalClaimedFormatted": "$50 billion since 2013",
+      "recentThreeYears": 20000000000,
+      "source": "Senator Warren's office"
+    },
+    "earmarkExamples": {
+      "source": "Heritage Foundation, Citizens Against Government Waste",
+      "examples": [
+        {
+          "project": "Grid Resilience and Equity in Energy Transition",
+          "amount": 995000,
+          "sponsor": "Warren & Markey",
+          "institution": "UMass"
+        },
+        {
+          "project": "Diversity and Inclusion for STEM Climate Students",
+          "amount": 500000,
+          "sponsor": "Warren & Markey",
+          "institution": "Worcester State University"
+        },
+        {
+          "project": "USS Constitution Museum",
+          "amount": 125000,
+          "sponsor": "Warren & Markey",
+          "note": "Museum had $13.7M in assets, $2.7M cash on hand"
+        }
+      ]
+    },
+    "accountability": {
+      "keyPoint": "Warren and Markey secure hundreds of millions in earmarks while MA residents pay among highest taxes and energy costs in nation"
+    }
+  },
+  "budgetHighlights": {
+    "source": {
+      "name": "Mass.gov, WBUR, Massachusetts Taxpayers Foundation",
+      "urls": [
+        "https://www.wbur.org/news/2024/07/29/massachusetts-fiscal-2025-budget-signed"
+      ]
+    },
+    "fy2025": {
+      "totalBudget": 58000000000,
+      "fairShareSurtax": 2980000000,
+      "fairShareExcess": 1700000000,
+      "description": "4% surtax on income above $1 million"
+    },
+    "newPrograms": {
+      "freeCommunityCOllege": {
+        "status": "Signed into law July 2024",
+        "signedBy": "Maura Healey"
+      },
+      "freeRTARides": {
+        "cost": 30000000,
+        "status": "Signed into law July 2024"
+      }
+    },
+    "budgetLateness": {
+      "fy2025": "Massachusetts was last of 46 states to pass budget",
+      "fiscalYearStart": "July 1",
+      "budgetSigned": "July 29, 2024"
+    }
+  },
+  "keyTakeaways": [
+    {
+      "category": "Shelter Crisis",
+      "finding": "Healey administration spent $1+ billion/year on emergency shelters using 'unlawful' no-bid contracts",
+      "responsible": "Governor Maura Healey, Housing Secretary Ed Augustus"
+    },
+    {
+      "category": "Energy Costs",
+      "finding": "MA has 3rd highest electricity rates in nation, 75% above national average",
+      "responsible": "State climate policies championed by Healey, Warren, Markey"
+    },
+    {
+      "category": "Audit Rejection",
+      "finding": "Healey rejected State Auditor's findings of mismanagement and unlawful contracts",
+      "responsible": "Governor Maura Healey"
+    },
+    {
+      "category": "Policy Contradiction",
+      "finding": "Healey delays climate mandates when political costs mount while claiming to be 'climate governor'",
+      "responsible": "Governor Maura Healey"
+    },
+    {
+      "category": "Federal Earmarks",
+      "finding": "Warren & Markey secure millions in earmarks for projects with 'equity' focus while residents struggle with costs",
+      "responsible": "Senator Elizabeth Warren, Senator Ed Markey"
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "The middle class is carrying this state on its back, and getting nothing in return. While families are struggling to afford everyday necessities, the state is shelling out $15,166 per family per month.",
+      "speaker": "Mike Kennealy",
+      "role": "Republican gubernatorial candidate",
+      "source": "Boston Herald"
+    },
+    {
+      "quote": "Maura Healey completely mismanaged the migrant crisis, wasting hundreds of millions of taxpayer's hard earned dollars on bloated no-bid contracts.",
+      "speaker": "Mike Kennealy",
+      "source": "Boston Herald"
+    },
+    {
+      "quote": "Where do we go to get our money back from these pricey no-bid contracts? Healey's team blew millions on shady, no-bid contracts, handed out sweetheart deals, and got taken for a ride, literally, with $150 cab fares and bloated food bills.",
+      "speaker": "Brian Shortsleeve",
+      "role": "Republican gubernatorial candidate",
+      "source": "Boston Herald"
+    },
+    {
+      "quote": "I doubt it. This has been territory pretty well covered.",
+      "speaker": "Maura Healey",
+      "context": "When asked if she'd make changes based on audit",
+      "source": "State House News Service"
+    },
+    {
+      "quote": "EOHLC bypassed established procurement procedures, resulting in a lack of fairness via competitive bidding and a lack of transparency and accountability.",
+      "speaker": "State Auditor Diana DiZoglio",
+      "source": "Official Audit Report, May 2025"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "title": "Massachusetts Outmigration Data - Updated January 2026",
+    "description": "Comprehensive migration data combining IRS AGI loss data (through 2022) with Census Bureau domestic migration data (through 2025)",
+    "lastUpdated": "2026-02-05",
+    "sources": [
+      {
+        "name": "IRS Statistics of Income - Migration Data",
+        "url": "https://www.irs.gov/statistics/soi-tax-stats-migration-data",
+        "coverage": "2012-2022",
+        "dataType": "AGI (Adjusted Gross Income) loss"
+      },
+      {
+        "name": "U.S. Census Bureau Population Estimates",
+        "url": "https://www.census.gov/programs-surveys/popest.html",
+        "coverage": "2020-2025",
+        "dataType": "Net domestic migration (headcount)",
+        "releaseDate": "January 2026"
+      },
+      {
+        "name": "Pioneer Institute Analysis",
+        "url": "https://pioneerinstitute.org",
+        "notes": "Analysis and additional context"
+      },
+      {
+        "name": "Mass Opportunity Alliance",
+        "url": "https://massopportunity.org",
+        "notes": "Survey data and analysis"
+      },
+      {
+        "name": "Boston Globe",
+        "url": "https://www.bostonglobe.com/2026/01/27/business/people-leaving-massachusetts-outmigration-2025/",
+        "releaseDate": "January 27, 2026"
+      }
+    ]
+  },
+
+  "agiLossData": {
+    "title": "Annual AGI Loss to Outmigration",
+    "subtitle": "In billions of dollars (IRS Data)",
+    "note": "IRS data lags ~2 years; 2022-2023 data expected mid-2025",
+    "yearlyData": [
+      { "year": 2012, "agiLossBillions": 0.9, "note": "Baseline year" },
+      { "year": 2018, "agiLossBillions": 1.5 },
+      { "year": 2019, "agiLossBillions": 2.0 },
+      { "year": 2020, "agiLossBillions": 4.2, "note": "COVID acceleration begins" },
+      { "year": 2021, "agiLossBillions": 4.3, "note": "Peak AGI loss year" },
+      { "year": 2022, "agiLossBillions": 3.9, "note": "Most recent IRS data available" }
+    ],
+    "cumulativeTotal": {
+      "period": "2020-2022",
+      "totalBillions": 12.4,
+      "headline": "$12.4B in AGI lost from 2020-2022 alone",
+      "comparison": "More than the previous 8 years combined"
+    },
+    "keyStats": [
+      {
+        "metric": "4×",
+        "description": "Increase in AGI loss",
+        "detail": "2012 to 2022"
+      },
+      {
+        "metric": "55%",
+        "description": "From $200k+ earners",
+        "detail": "Wealth leaving disproportionately"
+      },
+      {
+        "metric": "$2.6B",
+        "description": "Lost from high earners in 2021",
+        "detail": "60% of total that year"
+      }
+    ]
+  },
+
+  "censusMigrationData": {
+    "title": "Net Domestic Migration",
+    "subtitle": "People lost to other states (Census Bureau)",
+    "note": "Negative numbers = more people leaving than arriving from other states",
+    "yearlyData": [
+      { "year": 2020, "netDomesticMigration": -41000, "internationalMigration": 30000, "totalNetMigration": -11000 },
+      { "year": 2021, "netDomesticMigration": -48000, "internationalMigration": 16475, "totalNetMigration": -31525 },
+      { "year": 2022, "netDomesticMigration": -54843, "internationalMigration": 47000, "totalNetMigration": -7843, "note": "Peak outflow year" },
+      { "year": 2023, "netDomesticMigration": -36572, "internationalMigration": 68000, "totalNetMigration": 31428, "note": "Immigration surge masks domestic loss" },
+      { "year": 2024, "netDomesticMigration": -27480, "internationalMigration": 90000, "totalNetMigration": 62520, "note": "Lowest domestic loss since 2020" },
+      { "year": 2025, "netDomesticMigration": -33340, "internationalMigration": 40000, "totalNetMigration": 6660, "note": "Outmigration rebounds; immigration normalizes" }
+    ],
+    "headline2025": {
+      "netDomesticLoss": 33340,
+      "grossOutflow": 182000,
+      "grossInflow": 152000,
+      "populationGrowth": 15524,
+      "growthRate": "0.2%",
+      "comparison": "Lowest population growth since 2021",
+      "ranking": "5th worst state for domestic outmigration"
+    },
+    "keyInsights": [
+      {
+        "insight": "Without immigration, MA would be losing population",
+        "source": "Pioneer Institute, January 2026",
+        "quote": "Absent immigration, Massachusetts would already be losing population."
+      },
+      {
+        "insight": "Immigration fell sharply in 2025",
+        "detail": "From 76,000+ avg (2022-2024) to ~40,000 in 2025",
+        "implication": "Can no longer mask domestic outmigration"
+      },
+      {
+        "insight": "Outmigration rebounded in 2025",
+        "detail": "33,340 net loss vs 27,480 in 2024 (22% increase)",
+        "source": "Census Bureau, January 2026"
+      }
+    ]
+  },
+
+  "topDestinations": {
+    "title": "Where They're Going",
+    "subtitle": "Top destinations for MA emigrants",
+    "data": [
+      {
+        "state": "Florida",
+        "netFlow": -90000,
+        "agiLostBillions": 4.2,
+        "incomeTax": "0%",
+        "estateTax": "No",
+        "note": "Top destination by volume and wealth"
+      },
+      {
+        "state": "New Hampshire",
+        "netFlow": -99000,
+        "agiLostBillions": 2.8,
+        "incomeTax": "0%",
+        "estateTax": "No",
+        "note": "Highest volume; close proximity"
+      },
+      {
+        "state": "Texas",
+        "netFlow": -35000,
+        "agiLostBillions": 1.2,
+        "incomeTax": "0%",
+        "estateTax": "No"
+      },
+      {
+        "state": "South Carolina",
+        "netFlow": -25000,
+        "agiLostBillions": 0.8,
+        "incomeTax": "6.4%",
+        "estateTax": "No"
+      },
+      {
+        "state": "North Carolina",
+        "netFlow": -20000,
+        "agiLostBillions": 0.6,
+        "incomeTax": "4.75%",
+        "estateTax": "No"
+      }
+    ],
+    "keyFinding": "About half of MA emigrants move to FL or NH - states with no income tax",
+    "agiConcentration": "Top 2 destinations account for 60% of total AGI loss"
+  },
+
+  "whoIsLeaving": {
+    "title": "Who's Leaving Massachusetts",
+    "byAge": [
+      {
+        "ageGroup": "26-35",
+        "netLoss2022": 9500,
+        "changeFrom2012": "5× increase",
+        "shareOfOutflow": "Largest cohort",
+        "implication": "Loss of young talent hinders future innovation"
+      },
+      {
+        "ageGroup": "26-44",
+        "shareOfAGI": "44%",
+        "note": "Nearly half of all AGI leaving comes from this age group"
+      },
+      {
+        "ageGroup": "55-64",
+        "netLoss2022": 4500,
+        "agiLossBillions": 1.5,
+        "changeFrom2012": "15× increase",
+        "note": "Retirees fleeing estate tax; trend accelerating"
+      }
+    ],
+    "byIncome": [
+      {
+        "incomeGroup": "$200k+",
+        "shareOfAGI": "55-60%",
+        "note": "High earners contribute majority of wealth loss"
+      },
+      {
+        "incomeGroup": "Under $200k",
+        "shareOfPeople": "80%+",
+        "note": "Most emigrants by headcount are middle class"
+      }
+    ],
+    "surveyData": {
+      "source": "Massachusetts Society of CPAs, 2024",
+      "finding": "90% of CPAs surveyed indicated their high-income clients were considering leaving Massachusetts in the next year",
+      "millionaireTaxImpact": "64% cited the 'millionaire's tax' as a factor"
+    }
+  },
+
+  "economicImpact": {
+    "title": "Why This Matters",
+    "warnings": [
+      {
+        "indicator": "Private Sector Jobs",
+        "status": "Below pre-pandemic levels",
+        "detail": "Massachusetts is one of only 4 states with fewer private-sector jobs than before COVID",
+        "source": "Pioneer Institute"
+      },
+      {
+        "indicator": "GDP Growth",
+        "status": "Below national average",
+        "detail": "Has trailed national average for several consecutive quarters",
+        "source": "UMass Donahue Institute"
+      },
+      {
+        "indicator": "Workforce",
+        "status": "CNBC Grade: F",
+        "detail": "Failed 'workforce' category in Top States for Business Rankings",
+        "source": "CNBC"
+      },
+      {
+        "indicator": "Population Dependency",
+        "status": "100% dependent on immigration for growth",
+        "detail": "Without international migration, state population would be declining",
+        "source": "Census Bureau analysis"
+      }
+    ],
+    "expertQuotes": [
+      {
+        "quote": "Domestic out-migration rose again in 2025, and that's a clear signal that the state is becoming less competitive as a place to live, work, and do business.",
+        "source": "Aidan Enright, Pioneer Institute",
+        "date": "January 2026"
+      },
+      {
+        "quote": "It just hopefully shows you like everything in the policy realm, you can't take your foot off the gas.",
+        "source": "Doug Howgate, Massachusetts Taxpayers Foundation",
+        "date": "January 2026"
+      },
+      {
+        "quote": "Now we're looking at public policy, White House policy, that's going to restrict immigration flow. This will create [an economic] challenge for Massachusetts.",
+        "source": "Mark Williams, BU Questrom School of Business",
+        "date": "January 2026"
+      }
+    ],
+    "drivingFactors": {
+      "source": "Mark Williams, BU Questrom School of Business, 2024",
+      "topFactors": [
+        "Taxes",
+        "Housing costs",
+        "Health care expenses"
+      ],
+      "demographicNote": "Those leaving tend to be younger and earn more than the state average"
+    }
+  },
+
+  "chartConfig": {
+    "dualChartRecommendation": {
+      "chart1": {
+        "type": "bar",
+        "title": "AGI Lost to Outmigration",
+        "data": "agiLossData.yearlyData",
+        "note": "Use for wealth/money angle",
+        "limitation": "Data only through 2022"
+      },
+      "chart2": {
+        "type": "line or bar",
+        "title": "Net Domestic Migration",
+        "data": "censusMigrationData.yearlyData",
+        "note": "Use for current/headcount angle",
+        "advantage": "Data through 2025"
+      }
+    },
+    "singleChartOption": {
+      "type": "combo",
+      "description": "Overlay both datasets with dual Y-axis",
+      "leftAxis": "AGI Loss (Billions)",
+      "rightAxis": "Net People Lost",
+      "note": "Shows correlation between wealth and people leaving"
+    },
+    "heroStatOptions": [
+      {
+        "stat": "$12.4B",
+        "subtitle": "in AGI lost from 2020-2022",
+        "comparison": "More than the previous 8 years combined"
+      },
+      {
+        "stat": "33,340",
+        "subtitle": "net people lost in 2025",
+        "comparison": "Far above historic average"
+      },
+      {
+        "stat": "182,000",
+        "subtitle": "people left Massachusetts in 2025",
+        "comparison": "Only 152,000 moved in"
+      }
+    ]
+  },
+
+  "timelineEvents": {
+    "title": "What Changed",
+    "events": [
+      { "year": 2020, "event": "COVID pandemic + remote work acceptance", "impact": "Outmigration accelerates" },
+      { "year": 2022, "event": "Peak outmigration year (54,843 net loss)", "impact": "Worst year on record" },
+      { "year": 2022, "event": "Millionaire's tax approved by voters (November)", "impact": "CPAs report clients planning exit" },
+      { "year": 2023, "event": "Millionaire's tax takes effect (January)", "impact": "4% surtax on income >$1M" },
+      { "year": 2023, "event": "Healey declares shelter emergency", "impact": "Additional strain on state resources" },
+      { "year": 2024, "event": "Immigration surge temporarily masks domestic loss", "impact": "Net population grows" },
+      { "year": 2025, "event": "Immigration normalizes; domestic outmigration rebounds", "impact": "Growth slows to 0.2%" }
+    ]
+  }
+}

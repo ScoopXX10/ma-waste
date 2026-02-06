@@ -1,0 +1,294 @@
+{
+  "title": "Massachusetts Housing & Tax Burden Analysis",
+  "lastUpdated": "2026-02",
+  "overview": {
+    "purpose": "Track housing costs, tax burden, and affordability changes over time to answer: Was life more affordable under previous leadership?",
+    "verdict": "Data shows housing costs nearly doubled from 2015-2025, while taxes increased - most dramatic increases occurred 2020-2024 during pandemic and early Healey administration"
+  },
+  "housingCosts": {
+    "medianHomePriceHistory": {
+      "source": "The Warren Group",
+      "singleFamilyMedian": {
+        "2015": { "price": 335000, "note": "Baker Year 1" },
+        "2016": { "price": 345000, "change": "3.0%" },
+        "2017": { "price": 360000, "change": "4.3%" },
+        "2018": { "price": 385000, "change": "6.9%" },
+        "2019": { "price": 405000, "change": "5.2%" },
+        "2020": { "price": 447000, "change": "10.4%", "note": "COVID begins" },
+        "2021": { "price": 510000, "change": "14.1%", "note": "First time over $500k" },
+        "2022": { "price": 570000, "change": "11.8%", "note": "Baker final year" },
+        "2023": { "price": 570000, "change": "0%", "note": "Healey Year 1" },
+        "2024": { "price": 615000, "change": "7.9%", "note": "All-time high" },
+        "2025": { "price": 658200, "change": "7.0%", "note": "August 2025" }
+      },
+      "summary": {
+        "bakerEra2015to2022": {
+          "startPrice": 335000,
+          "endPrice": 570000,
+          "totalIncrease": "70%",
+          "avgAnnualIncrease": "7.9%",
+          "note": "Includes COVID spike 2020-2022"
+        },
+        "healeyEra2023to2025": {
+          "startPrice": 570000,
+          "endPrice": 658200,
+          "totalIncrease": "15.5%",
+          "avgAnnualIncrease": "5.2%"
+        },
+        "fullPeriod2015to2025": {
+          "totalIncrease": "96.5%",
+          "dollarIncrease": 323200,
+          "note": "Home prices nearly doubled in 10 years"
+        }
+      }
+    },
+    "rentHistory": {
+      "source": "Various/Oysterlink",
+      "averageMonthlyRent": {
+        "2015": 1500,
+        "2020": 1800,
+        "2024": 3150,
+        "2025": 3150
+      },
+      "change2015to2025": "110% increase"
+    },
+    "currentMarketStats2025": {
+      "medianListingPrice": 699900,
+      "medianSalePrice": 638100,
+      "daysOnMarket": 32,
+      "percentSellingAboveList": 36.8,
+      "monthsOfSupply": 1,
+      "source": "Redfin December 2025"
+    },
+    "regionalVariation2024": {
+      "boston": { "medianPrice": 835000 },
+      "worcester": { "medianPrice": 433000 },
+      "springfield": { "medianPrice": 318000 },
+      "stateAverage": { "medianPrice": 615000 }
+    },
+    "affordabilityContext": {
+      "source": "Mass.gov",
+      "findings": [
+        "Median home prices rose 73% since 2000, while median household income rose only 4% (inflation-adjusted)",
+        "Fewer than 1/4 of home sales 2010-2019 were affordable to low-moderate income households",
+        "Insurance costs up 40% since 2017",
+        "Average household with car pays $13,000 annually for transportation"
+      ],
+      "missingHouseholds": 108000,
+      "overcrowdedHouseholds": 49000,
+      "adultChildrenLivingWithParents": 400000
+    }
+  },
+  "taxBurden": {
+    "stateRankings": {
+      "taxFoundation2025": {
+        "overallCompetitiveness": "9th worst (42nd of 50)",
+        "individualIncomeTax": "Among worst due to 4% millionaire surtax",
+        "corporateTax": "7th worst",
+        "propertyTax": "Among highest in nation",
+        "uiTax": "Overly burdensome",
+        "change": "Dropped from 17th worst (2020-2023) to 9th worst (2024-2025) after millionaire tax",
+        "source": "Tax Foundation State Tax Competitiveness Index"
+      },
+      "cnbc2025": {
+        "costOfDoingBusiness": "49th (2nd worst)",
+        "overall": "20th",
+        "note": "Improved overall but cost of doing business remains near worst",
+        "source": "CNBC Top States for Business 2025"
+      },
+      "walletHub2025": {
+        "overallTaxBurden": "29th",
+        "adjustedForCostOfLiving": "46th (5th worst)",
+        "note": "Middle of pack on raw rates, but terrible when adjusted for cost of living"
+      }
+    },
+    "incomeTax": {
+      "flatRate": "5%",
+      "millionaireSurtax": {
+        "rate": "4% additional (9% total)",
+        "threshold": "$1 million",
+        "effectiveDate": "Tax year 2023",
+        "revenue2025": 2980000000,
+        "source": "Fair Share Amendment, voter-approved November 2022"
+      },
+      "historicalRate": {
+        "2015": "5.15%",
+        "2016": "5.10%",
+        "2020": "5.00%",
+        "2023": "5.00% (9% over $1M)"
+      }
+    },
+    "propertyTax": {
+      "stateAverageRate": "1.14%",
+      "nationalRank": "18th highest",
+      "averageSingleFamilyTaxBill": {
+        "2003": 3094,
+        "2015": 5500,
+        "2020": 5969,
+        "2024": 7500,
+        "2025": 8000,
+        "source": "Pioneer Institute MassAnalysis, DLS",
+        "note": "Estimated based on available data"
+      },
+      "townExtremes2024": {
+        "highestBill": {
+          "town": "Weston",
+          "averageBill": 24448,
+          "county": "Middlesex"
+        },
+        "lowestBill": {
+          "town": "Hancock",
+          "averageBill": 712,
+          "county": "Berkshire"
+        },
+        "lowestInMiddlesex": {
+          "town": "Waltham",
+          "averageBill": 4669
+        }
+      },
+      "taxRateExtremes2024": {
+        "highestRates": [
+          { "town": "Longmeadow", "rate": 24.67 },
+          { "town": "Provincetown", "rate": 9.28 },
+          { "town": "Maynard", "rate": 17.88 },
+          { "town": "Stow", "rate": 16.97 }
+        ],
+        "lowestRates": [
+          { "town": "Chilmark", "rate": 2.59 },
+          { "town": "Edgartown", "rate": 2.88 },
+          { "town": "Cambridge", "rate": 5.92 }
+        ],
+        "note": "Low rates often correlate with high property values"
+      },
+      "levyGrowth": {
+        "fy2015to2024": {
+          "totalLevyGrowth": "49.5%",
+          "dollarIncrease": 7200000000,
+          "from": 14600000000,
+          "to": 21800000000
+        },
+        "fy2024to2025": {
+          "growth": "5.1%",
+          "dollarIncrease": 1100000000
+        }
+      }
+    },
+    "salesTax": {
+      "rate": "6.25%",
+      "ranking": "20th most competitive (Tax Foundation)",
+      "note": "Relatively middle of pack compared to other tax categories"
+    }
+  },
+  "costOfLivingRanking": {
+    "source": "Forbes Advisor 2024",
+    "rank": "2nd highest in nation",
+    "onlyBehind": "Hawaii",
+    "averageAnnualExpenditure": 55000,
+    "components": {
+      "housing": "3rd highest (median $587,875, monthly $1,960)",
+      "healthcare": "High",
+      "transportation": "High",
+      "food": "Above average"
+    },
+    "context": "To maintain same purchasing power as $75,000 salary in 2014, would need $99,000+ today"
+  },
+  "affordabilityVerdict": {
+    "question": "Was life more affordable under Charlie Baker?",
+    "answer": "Mixed - housing costs rose under both administrations, but the steepest increases (2020-2022) coincided with pandemic. However, tax burden has worsened under Healey due to millionaire surtax implementation and continued property tax growth.",
+    "keyPoints": [
+      {
+        "factor": "Home Prices",
+        "bakerEra": "+70% ($335k to $570k)",
+        "healeyEra": "+15.5% ($570k to $658k)",
+        "context": "Baker era includes COVID spike; Healey inherited high baseline"
+      },
+      {
+        "factor": "Tax Competitiveness",
+        "bakerEra": "Ranked 17th worst",
+        "healeyEra": "Dropped to 9th worst",
+        "context": "Millionaire surtax made MA less competitive"
+      },
+      {
+        "factor": "State Budget",
+        "bakerEra": "Grew from $38B to $53B (38% over 8 years) without new taxes",
+        "healeyEra": "Grew from $53B to $58B (10% in 2 years) with new surtax revenue"
+      },
+      {
+        "factor": "Rainy Day Fund",
+        "bakerEra": "Grew from $1.1B to $8.4B (+664%)",
+        "healeyEra": "Slight decrease to $8.2B"
+      },
+      {
+        "factor": "Outmigration",
+        "trend": "Worsening - 33,340 net loss in 2025",
+        "drivers": "Taxes, housing costs, healthcare expenses"
+      }
+    ],
+    "bottomLine": "The data shows Massachusetts has become significantly less affordable over the past decade. While the most dramatic housing increases occurred during the pandemic (late Baker era), tax burden has worsened under Healey. The combination means middle-class families face higher costs on all fronts, driving continued outmigration."
+  },
+  "townByTownImpact": {
+    "note": "Property tax bills vary dramatically by town - from $712 (Hancock) to $24,448 (Weston)",
+    "dataSource": "Mass.gov Division of Local Services",
+    "interactiveUrl": "https://www.mass.gov/info-details/massachusetts-average-single-family-tax-bill",
+    "sampleTowns": {
+      "highCostSuburbs": {
+        "weston": { "avgTaxBill": 24448, "avgHomeValue": 1700000 },
+        "lincoln": { "avgTaxBill": 20000, "avgHomeValue": 1400000 },
+        "wellesley": { "avgTaxBill": 18000, "avgHomeValue": 1300000 }
+      },
+      "middleClassTowns": {
+        "westborough": {
+          "avgTaxBill2016": 8264,
+          "avgTaxBill2024": 12500,
+          "increase": "51%",
+          "avgHomeValue2016": 465046,
+          "avgHomeValue2024": 700000
+        },
+        "framingham": { "avgTaxBill": 7500, "avgHomeValue": 550000 },
+        "marlborough": { "avgTaxBill": 6500, "avgHomeValue": 480000 }
+      },
+      "affordableAreas": {
+        "springfield": { "avgTaxBill": 4000, "avgHomeValue": 318000 },
+        "worcester": { "avgTaxBill": 5500, "avgHomeValue": 433000 },
+        "hancock": { "avgTaxBill": 712, "avgHomeValue": 200000 }
+      }
+    }
+  },
+  "quotes": [
+    {
+      "quote": "Massachusetts has the second highest cost of living in the country, coming in just behind Hawaii.",
+      "source": "Forbes Advisor",
+      "year": 2024
+    },
+    {
+      "quote": "The four worst performing states in the U-Haul growth rankings (New York, New Jersey, Massachusetts, and California) all have burdensome tax laws.",
+      "source": "Mass Opportunity Alliance",
+      "year": 2025
+    },
+    {
+      "quote": "8 in 10 respondents (82 percent) said taxes are too high.",
+      "source": "MOA Poll",
+      "year": 2025
+    },
+    {
+      "quote": "When asked to identify the top issues forcing people to leave the state, the three most common responses were rising housing prices (79%), cost of living concerns (77%), and high taxes (66%).",
+      "source": "MOA Monthly Polling",
+      "year": 2025
+    },
+    {
+      "quote": "Median home prices have risen 73% since 2000, while median household income has risen only 4% over the same period, after adjusting for inflation.",
+      "source": "Mass.gov",
+      "year": 2024
+    }
+  ],
+  "sources": [
+    "The Warren Group (home price data)",
+    "Mass.gov Division of Local Services (property tax data)",
+    "Tax Foundation State Tax Competitiveness Index",
+    "CNBC Top States for Business",
+    "Pioneer Institute MassAnalysis",
+    "Forbes Advisor Cost of Living Study",
+    "Mass Opportunity Alliance polling",
+    "Redfin housing market data"
+  ]
+}

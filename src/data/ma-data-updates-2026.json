@@ -1,0 +1,86 @@
+{
+  "title": "MA-WASTE Data Updates - Current as of February 2026",
+  "lastVerified": "2026-02-04",
+  
+  "outmigration": {
+    "status": "CURRENT - Data through 2025",
+    "latestYear": 2025,
+    "netDomesticMigration2025": -33340,
+    "source": "US Census Bureau V2025 estimates, released January 2026",
+    "keyUpdates": [
+      "2024: -27,480 net domestic outmigration",
+      "2025: -33,340 net domestic outmigration (WORSENING)",
+      "Immigration dropped from 77,957 (2024) to 40,240 (2025)",
+      "Total population growth: only 15,524 - lowest since 2021",
+      "MA ranked 5th worst for outmigration (behind NY, NJ, IL, CA)"
+    ],
+    "quote": "Absent immigration, Massachusetts would already be losing population. Domestic out-migration rose again in 2025.",
+    "quoteSource": "Pioneer Institute, January 2026"
+  },
+  
+  "energyCosts": {
+    "status": "UPDATED - January 2026 data",
+    "currentRate": "29.94 to 34 cents per kWh (varies by source/provider)",
+    "nationalAverage": "16.58 to 17.98 cents per kWh",
+    "premiumOverNational": "63% to 74% higher than national average",
+    "ranking": "47th lowest (4th highest) in nation",
+    "averageMonthlyBill": "$167.36",
+    "sources": [
+      "EnergySage (January 2026): 34¢/kWh, 63% above national",
+      "EIA via ChooseEnergy: 29.94¢/kWh",
+      "EnergyBot (January 2026): 31.37¢/kWh, 74% above national"
+    ],
+    "note": "Rate varies by provider due to deregulated market; all sources confirm MA among highest in nation"
+  },
+  
+  "housingPrices": {
+    "status": "UPDATED - 2025 year-end data",
+    "medianSingleFamily2025": 638000,
+    "source": "Warren Group, January 2026",
+    "yearOverYearChange": "+3.7%",
+    "historicalComparison": {
+      "2022": { "price": 550000, "note": "Baker's final year" },
+      "2023": { "price": 570000, "note": "Healey Year 1" },
+      "2024": { "price": 615000 },
+      "2025": { "price": 638000 }
+    },
+    "greaterBostonMedian": 800000,
+    "salesVolume2025": 43240,
+    "salesChange": "+3% vs 2024",
+    "affordabilityNote": "In 2015, 57 municipalities had median prices below $500k. By 2025, only 3 remain: Brockton, Halifax, Wareham"
+  },
+  
+  "taxBurden": {
+    "status": "CURRENT - FY2026 data available",
+    "propertyTaxSource": "MA DLS FY2026 Tax Levies report (January 2026)",
+    "note": "343 of 351 communities have FY2026 tax rates set as of Jan 1, 2026",
+    "totalLevyGrowth": "Levies continue to grow; commercial values in Boston and Cambridge decreased",
+    "stateRanking": "Tax Foundation 2025: 9th worst (42nd of 50) for overall tax competitiveness"
+  },
+  
+  "shelterCrisis": {
+    "status": "CURRENT - Emergency ended August 2025",
+    "emergencyDeclared": "August 8, 2023",
+    "emergencyEnded": "August 1, 2025",
+    "fy2025Spending": "Over $1 billion",
+    "costPerFamily": "$15,166/month",
+    "auditFindings": "State Auditor Diana DiZoglio 74-page report, May 2025",
+    "healeyResponse": "I doubt it. This has been territory pretty well covered."
+  },
+  
+  "dataSourcesForMap": {
+    "propertyTaxByTown": {
+      "url": "https://dlsgateway.dor.state.ma.us/reports/rdPage.aspx?rdReport=PropertyTaxInformation.taxratesbyclass.taxratesbyclass_main",
+      "description": "MA DLS Gateway - Tax Rates by Class for all 351 municipalities",
+      "dataAvailable": "FY2026 rates, average single family tax bills, tax rates by class"
+    },
+    "averageTaxBillByTown": {
+      "url": "https://www.mass.gov/lists/property-tax-data-and-statistics",
+      "description": "Average Single Family Tax Bill report - ranked by town"
+    },
+    "populationByTown": {
+      "url": "https://donahue.umass.edu - MCD Population Estimates",
+      "description": "Census Bureau estimates for all 351 cities/towns through July 2024"
+    }
+  }
+}

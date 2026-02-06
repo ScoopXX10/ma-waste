@@ -1,0 +1,261 @@
+{
+  "title": "Massachusetts Leadership Comparison: Baker vs Healey Administrations",
+  "lastUpdated": "2026-02",
+  "overview": {
+    "purpose": "Historical comparison showing how Massachusetts has changed between administrations and connecting policy decisions to outcomes",
+    "bakerTerm": "January 2015 - January 2023",
+    "healeyTerm": "January 2023 - Present"
+  },
+  "governors": {
+    "baker": {
+      "name": "Charlie Baker",
+      "party": "Republican",
+      "ltGovernor": "Karyn Polito",
+      "term": "2015-2023",
+      "approvalRating": "Among highest of any US governor throughout tenure",
+      "reelection2018": "Won with 67% of vote - largest margin since 1994"
+    },
+    "healey": {
+      "name": "Maura Healey",
+      "party": "Democrat",
+      "ltGovernor": "Kim Driscoll",
+      "term": "2023-Present",
+      "previousRole": "Massachusetts Attorney General"
+    }
+  },
+  "budgetComparison": {
+    "baker": {
+      "firstBudget": {
+        "year": "FY2016",
+        "amount": 38100000000,
+        "formatted": "$38.1 billion"
+      },
+      "finalBudget": {
+        "year": "FY2023",
+        "amount": 52700000000,
+        "formatted": "$52.7 billion"
+      },
+      "totalGrowth": "38.3% over 8 years",
+      "avgAnnualGrowth": "4.8%",
+      "taxIncreases": "None - no new taxes",
+      "source": "WBUR, Mass.gov"
+    },
+    "healey": {
+      "firstBudget": {
+        "year": "FY2024",
+        "amount": 55980000000,
+        "formatted": "$55.98 billion"
+      },
+      "currentBudget": {
+        "year": "FY2025",
+        "amount": 58000000000,
+        "formatted": "$58 billion"
+      },
+      "growthFromBaker": "10% increase in first two years",
+      "newTaxes": "4% surtax on income above $1 million (Fair Share Amendment)",
+      "fairShareRevenue": "$2.98 billion in FY2025",
+      "source": "Mass.gov, WBUR"
+    }
+  },
+  "stabilizationFund": {
+    "description": "Massachusetts 'Rainy Day Fund' - reserve for fiscal emergencies",
+    "baker": {
+      "inherited2015": 1100000000,
+      "inherited2015Formatted": "$1.1 billion",
+      "left2023": 8400000000,
+      "left2023Formatted": "$8.4 billion",
+      "growth": "664% increase",
+      "growthDollars": "$7.3 billion added",
+      "keyQuote": "We are able to responsibly grow our reserves without raising taxes"
+    },
+    "healey": {
+      "current2025": 8165000000,
+      "current2025Formatted": "$8.165 billion",
+      "change": "Slight decrease from Baker's high",
+      "lastWithdrawal": "FY2015 - $140 million (before Baker stabilized it)"
+    },
+    "source": "Massachusetts Comptroller, Boston.com"
+  },
+  "shelterSystem": {
+    "baker": {
+      "approach": "Began converting hotels to temporary housing as migrant numbers rose in late 2022",
+      "spending": "System was manageable; no state of emergency declared",
+      "note": "Crisis began ramping up at end of Baker term"
+    },
+    "healey": {
+      "emergencyDeclared": "August 8, 2023",
+      "peakFamilies": 7500,
+      "peakIndividuals": 20000,
+      "annualCost": 1000000000,
+      "annualCostFormatted": "$1+ billion per year",
+      "costPerFamily": "$15,166/month or $3,496/week",
+      "auditFindings": "State Auditor found 'improper and unlawful' no-bid contracts",
+      "specificWaste": [
+        "$140 cab fare for 223-foot parking lot ride",
+        "$10 million no-bid contract with caterer lasting 8 months",
+        "9.6% overpayment on food deliveries"
+      ],
+      "healeyResponse": "Rejected audit findings; said 'I doubt' changes needed"
+    },
+    "accountability": "Healey administration made decision to declare emergency and award no-bid contracts"
+  },
+  "mbta": {
+    "context": "Boston's public transit system - chronic problems spanning both administrations",
+    "baker": {
+      "issues": [
+        "FTA issued scathing safety report in 2022",
+        "Orange Line shut down for month in 2022",
+        "Train caught fire on bridge - passenger jumped into river",
+        "Service cuts due to staffing shortages"
+      ],
+      "ftaFinding": "Still recovering from funding cuts made in 2015-2019 which resulted in reduction of hundreds of millions of dollars and hundreds of positions",
+      "investments": "Spent $2 billion on capital projects in FY2022, up from $875 million in FY2018",
+      "greenLineExtension": "$2.3 billion project - later found to have defective tracks"
+    },
+    "healey": {
+      "actions": [
+        "Appointed Phil Eng as General Manager (April 2023)",
+        "Eng reassigned 16+ senior executives",
+        "Eliminated all slow zones by December 2024 - first time in 20 years"
+      ],
+      "improvements": "Travel times shortened: 20+ min on Orange Line, nearly 1 hour on Red Line",
+      "ongoingIssues": [
+        "Operating budget deficit estimated at $700+ million annually",
+        "Infrastructure maintenance deficit at least $3 billion annually",
+        "Green Line Extension tracks found to be defective - knew since April 2021 but opened anyway"
+      ],
+      "healeyQuote": "I took this job understanding that the T was going to be a major, major issue... years of mismanagement and underinvestment"
+    },
+    "sharedAccountability": "Problems span both administrations - Baker cut funding early in term, Healey inherited mess but slow zones now fixed"
+  },
+  "outmigration": {
+    "trend": "Massachusetts consistently losing residents to other states",
+    "latestData": {
+      "period": "12 months ending July 2025",
+      "netLoss": 33340,
+      "rank": "5th worst nationally for outmigration",
+      "worseThanStates": "Only NY, NJ, IL, CA lost more",
+      "source": "US Census Bureau, Boston Globe"
+    },
+    "historicalContext": {
+      "2022": "~48,000 net domestic outmigration",
+      "2023": "~35,400 net domestic outmigration",
+      "2024": "~19,200 net domestic outmigration (revised)",
+      "2025": "~33,340 net domestic outmigration",
+      "trend": "Worsening again after brief improvement"
+    },
+    "whoPeopleLeavingFor": {
+      "topDestinations": ["Florida", "New Hampshire"],
+      "commonFactor": "Both have no state income tax"
+    },
+    "drivingFactors": {
+      "source": "BU Professor Mark Williams, 2024 study",
+      "factors": ["Taxes", "Housing costs", "Health care expenses"],
+      "demographic": "25-34 year olds disproportionately leaving"
+    },
+    "economicImpact": {
+      "incomeLost2021": 4300000000,
+      "incomeLost2021Formatted": "$4.3 billion in adjusted gross income",
+      "highEarnerShare": "55% of income leaving is from those making $200k+",
+      "source": "IRS data, Pioneer Institute"
+    },
+    "concerningTrend": "Young adults ages 25-34 leaving at highest rates - these are economic drivers who buy homes and start families"
+  },
+  "energyCosts": {
+    "context": "Massachusetts has 3rd highest electricity rates in nation",
+    "bakerApproach": {
+      "2016": "Signed energy diversification legislation",
+      "2017": "Announced 200 megawatt-hour energy storage target",
+      "2021": "Signed climate roadmap requiring net-zero by 2050",
+      "stance": "Supported clean energy but opposed millionaire's tax"
+    },
+    "healeyApproach": {
+      "campaignPromise": "Wanted to be 'climate governor'",
+      "2024legislation": "Signed 'An Act Promoting a Clean Energy Grid' (November 2024)",
+      "mandates": [
+        "Net zero emissions by 2050",
+        "50% reduction by 2030",
+        "75% reduction by 2040"
+      ],
+      "delays": {
+        "cleanHeatStandard": "Quietly delayed from 2026 to 2028 in December 2025",
+        "evMandate": "Delayed due to industry pressure",
+        "reason": "Affordability concerns - political cost before reelection"
+      },
+      "contradiction": "Campaigns as 'climate governor' but delays climate policies when costs become politically inconvenient"
+    },
+    "result": {
+      "maRate": "31.22 cents/kWh",
+      "nationalAverage": "17.78 cents/kWh",
+      "premium": "75% above national average",
+      "annualExtraCost": "$500+ per household vs national average"
+    }
+  },
+  "keyContrasts": [
+    {
+      "category": "Fiscal Management",
+      "baker": "Grew rainy day fund from $1.1B to $8.4B without raising taxes",
+      "healey": "Relies on $2.98B millionaire tax; shelter crisis cost $1B+/year"
+    },
+    {
+      "category": "Crisis Response",
+      "baker": "No major state of emergency declarations beyond COVID",
+      "healey": "Declared shelter emergency; audit found 'unlawful' no-bid contracts"
+    },
+    {
+      "category": "Transparency",
+      "baker": "Vetoed $7.9M in FY2022 spending; signed most budget provisions",
+      "healey": "Rejected State Auditor findings; 'I doubt' changes needed"
+    },
+    {
+      "category": "Cost of Living",
+      "baker": "Opposed millionaire's tax",
+      "healey": "Implemented millionaire's tax; energy costs still rising"
+    },
+    {
+      "category": "Outmigration",
+      "baker": "~37,000 avg annual net loss (COVID-impacted)",
+      "healey": "33,340 net loss in 2025; trend worsening again"
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "This budget is in balance, does not rely on new taxes, and forecasts a $1.2 billion deposit in the Commonwealth's Stabilization Fund.",
+      "speaker": "Charlie Baker",
+      "context": "FY2022 budget signing",
+      "year": 2021
+    },
+    {
+      "quote": "The Stabilization Fund grew by $7.3 billion since Baker came into office in 2015.",
+      "source": "Governor's office",
+      "year": 2022
+    },
+    {
+      "quote": "I doubt it. This has been territory pretty well covered.",
+      "speaker": "Maura Healey",
+      "context": "When asked if changes needed based on shelter audit",
+      "year": 2025
+    },
+    {
+      "quote": "The middle class is carrying this state on its back, and getting nothing in return.",
+      "speaker": "Mike Kennealy",
+      "role": "Republican gubernatorial candidate",
+      "year": 2025
+    },
+    {
+      "quote": "Maura Healey completely mismanaged the migrant crisis, wasting hundreds of millions of taxpayers' hard earned dollars on bloated no-bid contracts.",
+      "speaker": "Mike Kennealy",
+      "year": 2025
+    },
+    {
+      "quote": "The top driving factors behind domestic outmigration from Massachusetts are taxes, housing costs, and health care expenses.",
+      "speaker": "Mark Williams",
+      "role": "BU Finance Professor",
+      "year": 2024
+    }
+  ],
+  "bottomLine": {
+    "summary": "Under Baker, Massachusetts built fiscal reserves without raising taxes. Under Healey, the state imposed new taxes, spent over $1 billion annually on a shelter crisis marked by 'unlawful' contracts, and continues losing residents to lower-tax states while energy costs remain among the highest in the nation.",
+    "voterQuestion": "Are current leaders making decisions that benefit Massachusetts residents, or decisions that benefit their political priorities?"
+  }
+}
