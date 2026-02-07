@@ -27,6 +27,7 @@ const topics = [
     statLabel: 'Net loss in 2025',
     teaser: 'People are voting with their feet. 182,000 left Massachusetts last year alone.',
     drawerTitle: 'THE EXODUS: Migration Data',
+    sources: ['Census', 'IRS SOI', 'BLS'],
     content: (
       <>
         <OutmigrationSection />
@@ -43,6 +44,7 @@ const topics = [
     statLabel: 'Extra cost per year',
     teaser: 'What it costs YOU to live in Massachusetts vs. the national average.',
     drawerTitle: 'YOUR BURDEN: The MA Premium',
+    sources: ['BLS', 'EIA', 'Census ACS'],
     content: (
       <>
         <PremiumCalculator />
@@ -58,6 +60,7 @@ const topics = [
     statLabel: 'Annual shelter spending',
     teaser: 'No-bid contracts, SNAP fraud, and $2.1 billion owed to the feds.',
     drawerTitle: 'WASTE & FRAUD: Where Your Money Goes',
+    sources: ['State Auditor', 'OCPF', 'USDA-OIG'],
     content: (
       <>
         <SpendingSection />
@@ -74,6 +77,7 @@ const topics = [
     statLabel: 'Home prices since 2000',
     teaser: "Prices up 245% while incomes only rose 114%. You can't afford to stay.",
     drawerTitle: 'HOUSING CRISIS: The Affordability Gap',
+    sources: ['Warren Group', 'Census ACS', 'Zillow'],
     content: (
       <>
         <AffordabilityGap />
@@ -90,16 +94,18 @@ const topics = [
     statLabel: 'Above US average',
     teaser: 'Highest electricity rates in the continental US. Policy contradictions abound.',
     drawerTitle: 'ENERGY COSTS: Why You Pay More',
+    sources: ['EIA', 'BLS', 'DOER'],
     content: <EnergySection />,
   },
   {
     id: 'accountability',
     icon: '⚖️',
     title: "WHO'S RESPONSIBLE",
-    stat: '2015→2026',
-    statLabel: 'The record',
-    teaser: 'Baker vs Healey: A decade of policies that led us here.',
+    stat: '2003→2026',
+    statLabel: 'Four governors',
+    teaser: 'From Romney to Healey: 23 years of budget growth and policy decisions.',
     drawerTitle: "WHO'S RESPONSIBLE: The Political Record",
+    sources: ['Cato Institute', 'Mass.gov', 'State Budget'],
     content: (
       <>
         <ComparisonSection />
@@ -140,6 +146,7 @@ function TopicCardGrid() {
               stat={topic.stat}
               statLabel={topic.statLabel}
               teaser={topic.teaser}
+              sources={topic.sources}
               onClick={() => openDrawer(topic.id)}
               delay={index * 100}
             />

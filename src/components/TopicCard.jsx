@@ -1,4 +1,4 @@
-function TopicCard({ icon, title, stat, statLabel, teaser, onClick, delay = 0 }) {
+function TopicCard({ icon, title, stat, statLabel, teaser, onClick, delay = 0, sources = [], isLive = true }) {
   return (
     <button
       onClick={onClick}
@@ -8,8 +8,16 @@ function TopicCard({ icon, title, stat, statLabel, teaser, onClick, delay = 0 })
         focus:outline-none focus:ring-2 focus:ring-warning focus:ring-offset-2 focus:ring-offset-slate-950"
       style={{ animationDelay: `${delay}ms` }}
     >
+      {/* Live badge */}
+      {isLive && (
+        <div className="absolute top-3 right-3 flex items-center gap-1.5">
+          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+          <span className="font-mono text-[10px] text-green-400 uppercase tracking-wider">Live</span>
+        </div>
+      )}
+
       {/* Corner accent */}
-      <div className="absolute top-0 right-0 w-16 h-16 overflow-hidden">
+      <div className="absolute top-0 right-0 w-16 h-16 overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-blood-light/10 to-transparent transform rotate-45 translate-x-12 -translate-y-12 group-hover:from-blood-light/20 transition-colors" />
       </div>
 
@@ -37,6 +45,20 @@ function TopicCard({ icon, title, stat, statLabel, teaser, onClick, delay = 0 })
       <p className="font-serif text-paper/60 text-sm mb-4 line-clamp-2">
         {teaser}
       </p>
+
+      {/* Source tags */}
+      {sources.length > 0 && (
+        <div className="flex flex-wrap gap-1.5 mb-4">
+          {sources.map((source) => (
+            <span
+              key={source}
+              className="font-mono text-[10px] px-2 py-0.5 bg-slate-800 text-paper/40 rounded"
+            >
+              {source}
+            </span>
+          ))}
+        </div>
+      )}
 
       {/* CTA */}
       <div className="flex items-center gap-2 font-mono text-sm text-warning group-hover:text-paper transition-colors">
