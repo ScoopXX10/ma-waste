@@ -17,6 +17,8 @@ import TippingPointTimeline from './TippingPointTimeline'
 import StateComparison from './StateComparison'
 import PremiumCalculator from './PremiumCalculator'
 import TownMapSection from './TownMapSection'
+import PensionSection from './PensionSection'
+import HealthcareSection from './HealthcareSection'
 
 const topics = [
   {
@@ -96,6 +98,28 @@ const topics = [
     drawerTitle: 'ENERGY COSTS: Why You Pay More',
     sources: ['EIA', 'BLS', 'DOER'],
     content: <EnergySection />,
+  },
+  {
+    id: 'pensions',
+    icon: '💣',
+    title: 'PENSION TIME BOMB',
+    stat: '$42.3B',
+    statLabel: 'Unfunded liability',
+    teaser: 'Only 65% funded. $4.9 billion taxpayer bill in FY2026 alone. The math doesn\'t work.',
+    drawerTitle: 'PENSION TIME BOMB: The $42B Hole',
+    sources: ['PERAC', 'PRIT Fund', 'Pioneer'],
+    content: <PensionSection />,
+  },
+  {
+    id: 'healthcare',
+    icon: '🏥',
+    title: 'HEALTHCARE CRISIS',
+    stat: '$32,469',
+    statLabel: 'Family cost per year',
+    teaser: '#1 most expensive state for healthcare. Half of small businesses may close within 5 years.',
+    drawerTitle: 'HEALTHCARE CRISIS: #1 Most Expensive',
+    sources: ['CHIA', 'MA DOI', 'KFF'],
+    content: <HealthcareSection />,
   },
   {
     id: 'accountability',

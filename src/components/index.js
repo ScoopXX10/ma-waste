@@ -18,6 +18,8 @@ export { default as ExodusMap } from './ExodusMap'
 export { default as AffordabilityGap } from './AffordabilityGap'
 export { default as StateComparison } from './StateComparison'
 export { default as FraudSection } from './FraudSection'
+export { default as PensionSection } from './PensionSection'
+export { default as HealthcareSection } from './HealthcareSection'
 export { default as Footer } from './Footer'
 
 // New Hub & Spoke components
